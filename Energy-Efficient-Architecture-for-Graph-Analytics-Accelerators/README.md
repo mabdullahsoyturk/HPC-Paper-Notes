@@ -9,6 +9,7 @@ Reference: M. M. Ozdal et al., "Energy Efficient Architecture for Graph Analytic
 * SystemC
 * Memory level parallelism
 * Outstanding memory requests and MSHRs
+* Access granularity.
 
 ## Questions:
 * What does graph-parallel computation mean? 
@@ -49,6 +50,10 @@ Async execution often converges much faster than synch execution but it may conv
 Small percent of vertices cover most of the edges. 
 
 ### Limitations of General Purpose CPUs
+For graph applications:
 * Memory latency is the main performance bottleneck.
 * Low memory level parallelism (MLP) leads to under-utilization of the DRAM bandwidth.
 * Overall performance scales linearly with memory bandwidth consumption because of overlapped access latencies.
+
+Limitation of CPUs:
+* For a single OOO core, maximum number of outstanding memory requests is bounded by the number of MSHRs which is 10 for IvyBridge core but for a DRAM with 90ns latency, 64GB/s bandwidth and 64B access granularity, we need at least 90 outstanding memory requests to fully utilize the DRAM bandwidth. Graph processing workloads sustain far less than 10 outstanding W
