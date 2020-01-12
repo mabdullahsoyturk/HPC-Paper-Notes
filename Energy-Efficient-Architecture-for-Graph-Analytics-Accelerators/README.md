@@ -79,3 +79,23 @@ GPUs hide long memory access latencies by scheduling thousands of threads. Howev
 
 ### Graph Parallel Abstraction
 There are several frameworks to develop parallel and distributed software for graph-parallel apps. This paper focuses on vertex-centric abstraction model that consists of **Gather-Apply-Scatter** (GAS) functions.
+
+![PageRank Algorithm](figures/page_rank.png)
+
+**Gather**: Collect data from the neighboring vertices and edges. \
+**Apply**: Perform computation. \
+**Scatter**: Distribute vertex data to neighbors. Schedule the neighboring vertices for future execution if needed.
+
+The exact programming interface for the architeture template was not included in this paper (Check whether they published another paper that includes this).
+
+To implement PageRank in this template, user defines the data structure associated with a vertex as a pair of fixed-point values, corresponding to:
+
+1. One over vertex degree (1/d<sub>v</sub>)
+2. Vertex rank (r<sub>v</sub>)
+
+Then, the user fills in the pre-defined functions corresponding to different GAS operations (just like in the PageRank algorithm above). For example, _gather_edge_ function consists of a simple multiply-add operation, while the _scatter_edge_ functinos sets a predicate parameter based on the result of apply. 
+
+All these structures and functions are defined in C and plugged into the architecture template.
+
+### Proposed Architecture
+![Proposed Architecture](figures/proposed_architecture.png)
