@@ -8,8 +8,8 @@ Reference: M. M. Ozdal et al., "Energy Efficient Architecture for Graph Analytic
 * GraphLab (Done)
 * SystemC
 * Memory level parallelism
-* Outstanding memory requests and MSHRs
-* Access granularity.
+* Outstanding memory requests and MSHRs (Done)
+* Access granularity (Done)
 
 ## Questions:
 * What does graph-parallel computation mean? 
@@ -17,6 +17,8 @@ Reference: M. M. Ozdal et al., "Energy Efficient Architecture for Graph Analytic
 It is similar to data-parallel computation. In data-parallel computation, we process **independent data** on **seperate resources**. In grap-parallel computation, we partition the graph data (**dependent**) across processing resources and then resolve the dependencies through iterative computation. 
 
 * What is vertex-centric abstraction model?
+  
+Vertex-centric means "think like a vertex".
 
 
 ## Notes:
@@ -64,5 +66,16 @@ Limitation of CPUs:
 * For multi-core systems, synchronization overheads in the sync mode kills the performance. Async mode is sometimes even slower than sync mode.
 
 ### Limitations of Throughput Architectures
+Three key features of throughput architectures (e.g. GPU):
+1. Simple Cores
+2. Extensive Multithreading
+3. Single Instruction Multiple Data (SIMD)
 
+GPUs hide long memory access latencies by scheduling thousands of threads. However, iterative graph algorithms require synchronization and atomic access to common data structures. Efficient global synchronization among thousands of threads is not supported in today's GPUs.
 
+* Due to asymmetric convergence, the set of vertices can change significantly. Therefore, statically assigning vertices to GPU threads do not work well. 
+* Async execution requires fine-grain synchronization netween neighboring vertices which is not well suited for GPU architectures due to expensive locking mechanism.
+* GPUs achieve their peak memory bandwidth only when accesses are coalesced but it is not the case for grahps with irregular memory access patterns.
+
+### Graph Parallel Abstraction
+There are several frameworks to develop parallel and distributed software for graph-parallel apps. This paper focuses on vertex-centric abstraction model that consists of **Gather-Apply-Scatter** (GAS) functions.
