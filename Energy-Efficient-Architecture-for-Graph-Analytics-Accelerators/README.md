@@ -13,9 +13,11 @@ Reference: M. M. Ozdal et al., "Energy Efficient Architecture for Graph Analytic
 
 ## Questions:
 * What does graph-parallel computation mean? 
-* What is vertex-centric abstraction model?
 
 It is similar to data-parallel computation. In data-parallel computation, we process **independent data** on **seperate resources**. In grap-parallel computation, we partition the graph data (**dependent**) across processing resources and then resolve the dependencies through iterative computation. 
+
+* What is vertex-centric abstraction model?
+
 
 ## Notes:
 
@@ -27,6 +29,7 @@ It is similar to data-parallel computation. In data-parallel computation, we pro
 * Objective of the paper is to create an abstraction model similar to **GraphLab** but targeted for architecture and hardware development of graph analytics accelerators.
 * Authors propose a customaziable architecture template that is specifically optimized for the target class of graph applications.
 * The architects plug in application-level data structures and operations into the template and generate the hardware implementation.
+* Instruction window size limitations.
 
 ### Contributions
 * An architecture specifically optimized for vertex-centric, iterative, graph-parallel applications with irregular access patterns and asymmetric convergence.
@@ -56,4 +59,10 @@ For graph applications:
 * Overall performance scales linearly with memory bandwidth consumption because of overlapped access latencies.
 
 Limitation of CPUs:
-* For a single OOO core, maximum number of outstanding memory requests is bounded by the number of MSHRs which is 10 for IvyBridge core but for a DRAM with 90ns latency, 64GB/s bandwidth and 64B access granularity, we need at least 90 outstanding memory requests to fully utilize the DRAM bandwidth. Graph processing workloads sustain far less than 10 outstanding W
+* For a single OOO core, maximum number of outstanding memory requests is bounded by the number of MSHRs which is 10 for IvyBridge core but for a DRAM with 90ns latency, 64GB/s bandwidth and 64B access granularity, we need at least 90 outstanding memory requests to fully utilize the DRAM bandwidth. Graph processing workloads sustain far less than 10 outstanding memory request **per core** due to instruction window size limitations.
+* Using multiple cores can allow **better bandwidth utilization** but **reduces the energy efficiency** due to number of stalled cores. This happens because data locality is awful. So, caching principle does not work well for graph applications.
+* For multi-core systems, synchronization overheads in the sync mode kills the performance. Async mode is sometimes even slower than sync mode.
+
+### Limitations of Throughput Architectures
+
+
