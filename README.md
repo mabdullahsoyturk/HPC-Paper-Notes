@@ -5,4 +5,4 @@ I share this repository because some of the questions that I asked and answered 
 
 ## List of Papers
 
-1. [Energy Efficient Architecture for Graph Analytics Accelerators](../Computer-Architecture-Paper-Notes/Energy-Efficient-Architecture-for-Graph-Analytics-Accelerators/README.md)
+1. [Energy Efficient Architecture for Graph Analytics Accelerators](Energy-Efficient-Architecture-for-Graph-Analytics-Accelerators)
