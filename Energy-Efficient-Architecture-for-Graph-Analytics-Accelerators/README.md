@@ -20,6 +20,10 @@ It is similar to data-parallel computation. In data-parallel computation, we pro
   
 Vertex-centric means "think like a vertex".
 
+* What is scale-free graph?
+
+It is a graph type whose degree distribution follows a power law.
+
 
 ## Notes:
 
@@ -98,4 +102,27 @@ Then, the user fills in the pre-defined functions corresponding to different GAS
 All these structures and functions are defined in C and plugged into the architecture template.
 
 ### Proposed Architecture
+Single accelerator unit connected to the system DRAM.
+
 ![Proposed Architecture](figures/proposed_architecture.png)
+
+Accelerator is loosely-coupled with host processor and it is connected to the system DRAM. Host processor populates the graph data in DRAM and sends a signal to the accelerators. Once the accelerator finishes computation, it sends a signal back to host.
+
+* Tens of vertices and hundreds of edges are processed **simultaneously** to achieve high levels of MLP.
+* Scale-free graphs are handled through dynamic load balancing.
+* Synchronization between concurrently processed vertices and edges is done in the Sync Unit (SYU)
+* The set of active vertices is maintained by the Active List Manager (ALM)
+* The memory subsystem is optimized for sparse graph data structures.
+
+
+**AL**: Active List. Containst set of active vertices.\
+**RT**: Runtime. Controls how many vertices can be processed at a given time. \
+**SYU**: Sync Unit. Responsible for sequential consistency between vertices that are being executed concurrently. \
+**GU**: Gather Unit. Loads the data associated with each vertex. Iterates over all incoming edges of a vertex. Accumulates the data specified by the application. \
+**APU**: Apply Unit. Does the computation. \
+**SCU**: Scatter Unit. Schedules neighbors for future execution if necessary.
+
+#### Execution Flow
+ALM extracts vertices from AL and sends them to RT. If there are enough resources, RT starts the execution of a vertex by sending it to the SYU. SYU assigns a rank to each vertex, and sends it to the GU. GU loads the data associated with each vertex. Then, iterates over all incoming edges of a vertex and accumulates the data specified by the application. GU sends the data to APU. APU does the computation. APU sends computed data to SCU. SCU distributes it to the neighbors and schedules neighbors for future execution if necessary.
+
+#### A. Gather Unit (GU)
