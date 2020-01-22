@@ -8,6 +8,10 @@ doi: 10.1109/TCAD.2017.2706562
 
 
 ## Questions:
+Why should I choose this template based design methodology over RTL or HLS?
+
+* RTL-based design **takes weeks or months** of development time to obtain accurate **power**, **perfomance** and **area estimation** for one application. If there are many applications to analyze, it is not wise to choose RTL-based design.
+* HLS is effective for applications with **regular compute patterns**.
 
 ## Notes:
 Graph analysis is different from traditional grid based high performance computing because of:
