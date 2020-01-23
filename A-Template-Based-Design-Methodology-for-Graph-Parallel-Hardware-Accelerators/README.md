@@ -79,3 +79,20 @@ HLS model that was used in the paper supports multiple outstanding requests for 
 ![Architecture for HLS Design](figures/hls.png)
 
 The above pipeline needs to be implemented for each application **seperately**.
+
+### Proposed Architecture
+The basic idea is to allow processing many vertices/edges to be able to hide long access latencies to main memory. The accelerator is connected to the system DRAM directly. For detailed architecture check: [Preliminary Paper](../Energy-Efficient-Architecture-for-Graph-Analytics-Accelerators/README.md)
+
+### Template Based Methodology
+Template is created once and utilized across many applications. Reduces design effort.
+
+![Design Flow](figures/design_flow.png)
+
+#### Design Flow
+Template comes with functional and performance SystemC models. Functional model is used to validate functionality of the application. The performance model is a **cycle-accurate** SystemC model that has all the architectural details of the template modules, except  the user-defined functions.
+
+1. User specializes the template by providing **application specific data types** and **implementation of some predefined functions** in C.
+2. User provides **HLS directives** for the application specific functions.
+3. Once the template is specialized, an HLS flow is used to generate RTL for the user-defined functions for timing characterization. After the latency and throughput values for each user func are computed, they are back annotated into the performance models to produce a system level performance model for this accelerator.
+4. This model is then used for design space exploration.
+5. After automatic tuning of the template parameters, the implementation ready SystemC models can be synthesized to produce RTL using a standard HLS flow.
