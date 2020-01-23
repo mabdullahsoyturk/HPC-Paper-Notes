@@ -36,3 +36,23 @@ Most previous works on hardware accelerators assume that data resides in local m
     * HLS methodology using traditional bulk-synchronous models.
     * Proposed templated-based methodology.
     * A state of art CPU system.
+
+### Background
+Efficient execution of a graph algorithm requires both **high throughput computation** and **work efficiency**.
+
+**Throughput**: Number of vertices or edges processed per unit time.
+
+**Work Efficiency**: Number of vertices or edges processed to complete a given task.
+
+Two factors that affect work efficiency of iterative graph algorithms:
+1. Asynchronous Execution
+
+In bulk-synchronous implementation of a graph algorithm, there are global barriers between iterations. Only the data from the previous iteration can be used.
+
+In asynchronous implementation, vertices access the latest data from neighbours, allowing them to see the updates done in the same iteration.
+
+Asynch 2x faster for some graph algorithms.
+
+2. Active Vertex Set
+
+Vertices converge at different speeds. Work efficiency can be improved by not processing the vertices that converge earlier than others.
