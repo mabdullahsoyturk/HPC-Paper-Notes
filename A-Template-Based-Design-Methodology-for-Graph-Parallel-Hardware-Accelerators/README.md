@@ -56,3 +56,26 @@ Asynch 2x faster for some graph algorithms.
 2. Active Vertex Set
 
 Vertices converge at different speeds. Work efficiency can be improved by not processing the vertices that converge earlier than others.
+
+### HLS Based Accelerator Design
+Good for designing accelerators for **compute-oriented** applications with **regular memory access patterns**. Hard to use for irregular graph applications.
+
+* It is not viable to store very large graphs in local memories of an accelerator.
+* Processing one partition at a time is not practical due to the irregular memory access patterns. Hence, the designed accelerator needs to be **able to make requests to system memory** and be **able to hide access latency** by scheduling multiple memory requests concurrently.
+
+Paper assumes that the input graphs are stored in CSR format. Two arrays are used to store the graph topology (**VertexInfo**, **EdgeInfo**). 
+
+VertexInfo[i] stores: 
+* Corresponding edge offset in EdgeInfo array.
+* Number of incoming/outgoing edges (for directed graphs).
+
+EdgeInfo[i] stores:
+* Neighboring vertex index for edge i.
+
+Data associated with each vertex and edge is stored in array **VertexData** and **EdgeData** respectively.
+
+HLS model that was used in the paper supports multiple outstanding requests for MLP. Bulk synchronous model of execution was used.
+
+![Architecture for HLS Design](figures/hls.png)
+
+The above pipeline needs to be implemented for each application **seperately**.
