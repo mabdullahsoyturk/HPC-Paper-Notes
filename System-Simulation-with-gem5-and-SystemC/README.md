@@ -18,3 +18,11 @@ Heterogenous ISAs.
 * gem5 is incompatible to TLM models that exist in the industry and academia.
 * Paper presents the coupling between SystemC and gem5. 
 * Through this coupling, any SystemC module that implements the TLM base protocol can be connected to any gem5 module. 
+
+### Background
+#### SystemC and TLM
+Although it is possible to model components on the RTL, SystemC is mainly used for high–level system modeling. SystemC extends C++ to provide event-driven simulation. 
+
+TLM is used to model the communication between SystemC components by function calls. Emphasis is on the functionality of the data transfers rather than actual implementation. 
+
+![Non Blocking TLM](figures/tlm.png)
