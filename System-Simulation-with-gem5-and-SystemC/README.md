@@ -27,6 +27,15 @@ TLM is used to model the communication between SystemC components by function ca
 
 ![Non Blocking TLM](figures/tlm.png)
 
+* Modules communicate through sockets. **Initiator sockets** start new transactions and **target sockets** respond to them.
+* Initiator modules have one or more initiator sockets and target modules have one or more target sockets. 
+* Interconnect modules use both socket types. 
+* TLM transactions are encapsulated in the so-called **generic payload** which contains **address**, **command**, **status** and other information along with actual data.
+* TLM non-blocking transport consists of: BEGIN_REQ, END_REQ, BEGIN_RESP, END RESP. 
+* Two functions handle the communication: 
+  1. np_transport_fw transfers a generic payload object from an initiator to a target.  
+  2. np_transport_bw transfers a generic payload object from a target an to initiator.
+
 #### gem5
 
 A complete simulation framework. Connect between memory objects is established by binding master and slave ports. Packets encapsulates transfers between memory objects. They contain the actual payload data of memory accesses and metadata (address, size, command, status).

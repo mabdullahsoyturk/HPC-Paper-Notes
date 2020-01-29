@@ -126,3 +126,7 @@ Accelerator is loosely-coupled with host processor and it is connected to the sy
 ALM extracts vertices from AL and sends them to RT. If there are enough resources, RT starts the execution of a vertex by sending it to the SYU. SYU assigns a rank to each vertex, and sends it to the GU. GU loads the data associated with each vertex. Then, iterates over all incoming edges of a vertex and accumulates the data specified by the application. GU sends the data to APU. APU does the computation. APU sends computed data to SCU. SCU distributes it to the neighbors and schedules neighbors for future execution if necessary.
 
 #### A. Gather Unit (GU)
+* Implements gather program **for each vertex v**. 
+* Latency tolerant. Many vertices and edges are processed concurrently. Partial states are stored locally.
+* Limited storage of GU is shared among all concurrently processing vertices.
+* Uses a credit based mechanism.
