@@ -26,3 +26,20 @@ Although it is possible to model components on the RTL, SystemC is mainly used f
 TLM is used to model the communication between SystemC components by function calls. Emphasis is on the functionality of the data transfers rather than actual implementation. 
 
 ![Non Blocking TLM](figures/tlm.png)
+
+#### gem5
+
+A complete simulation framework. Connect between memory objects is established by binding master and slave ports. Packets encapsulates transfers between memory objects. They contain the actual payload data of memory accesses and metadata (address, size, command, status).
+
+![gem5](figures/gem5.png)
+
+Comparison: 
+
+![Comparison of gem5 and SystemC TLM](figures/comparison.png)
+
+### Combining gem5 and TLM
+The coupling is achieved by hooking the event loop of gem5 to the SystemC kernel. A special SystemC module hosts the gem5 simulation. It is responsible for assembling and initializing all gem5 modules according to a conﬁguration ﬁle and implements a process that the SystemC kernel invokes for each gem5 event. 
+
+This is limited since it does not allow communication between gem5 and SystemC modules. The paper **presents a mechanism that translates gem5 memory access to TLM transactions and TLM transactions back to gem5 memory accesses**. They use **slave transactor** to translate gem5 memory accesses to TLM transactions and **master transactor** to translate TLM transactions to gem5 memory accesses.
+
+![Translations](figures/translation.png)
