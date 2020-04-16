@@ -4,3 +4,4 @@
 2. [A Template Based Design Methodology for Graph Parallel Hardware Accelerators](A-Template-Based-Design-Methodology-for-Graph-Parallel-Hardware-Accelerators)
 3. [System Simulation with gem5 and SystemC](System-Simulation-with-gem5-and-SystemC)
 4. [GAIL: The Graph Algorithm Iron Law](The-Graph-Algorithm-Iron-Law)
+5. [Locality Exists in Graph Processing: Workload Characterization on an Ivy Bridge Serve](Locality-Exists-In-Graph-Processing)
