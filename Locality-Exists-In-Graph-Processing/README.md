@@ -26,4 +26,6 @@ A load must satisfy the following four requirements:
 3. Register operands are available.
 4. Memory bandwidth is available - At the core level there is a MSHR available and there is not excessive contention within the on-chip interconnect or at the memory controller.
 
-Memory bandwidth cannot be a bottleneck unless the first three requirements are satisfied
+Memory bandwidth cannot be a bottleneck unless the first three requirements are satisfied.
+
+* The biggest bandwidth bottleneck is the instruction window because it cannot hold a sufﬁcient number of instructions to incorporate the needed number of rare cache-missing instructions.
