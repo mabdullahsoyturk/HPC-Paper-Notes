@@ -8,15 +8,19 @@ Reference: "Locality Exists in Graph Processing: Workload Characterization on an
 
 ## Notes:
 
-*  Graph algorithms struggle to fully utilize the platform’s memory bandwidth
+*  Graph algorithms struggle to fully utilize the platform’s memory bandwidth.
 *  **Increasing memory bandwidth utilization** could be just as effective as **decreasing communication**.
 *  Because message-passing is far less efficient than accessing memory in contemporary systems, distributed clusters are a poor match to graph processing.
+*  The biggest memory bandwidth bottleck is the instruction window. 
+*  Input graph has the largest impact on performance characteristics.
+*  TLB misses are only detrimental when at least a moderate amount of memory bandwidth is utilized.
+*  Branch misspredictions and unresolved data dependencies can also hinder memory bandwidth utilization.
+*  Memory bandwidth is also moderately hindered by NUMA effects.
 
 Some insights:
-1. Memory bandwidth is not fully utilized. Other bottlenecks described below prevent achieving full utilization.
-2. Graph apps exhibit substantial locality. They experience moderately high LLC hit rate.
-3. Reorder buffer size limits achievable memory throughput. Relatlively high LLC hit rate implies many instructions are executed for each LLC miss.These instructions fill the reorder buffer in the core, preventing future loads that will miss in the LLC from issuing early, resulting in unused memory bandwidth.
-4. Multithreading has limited potential for graph processing
+1. Graph apps exhibit substantial locality. They experience moderately high LLC hit rate.
+2. Reorder buffer size limits achievable memory throughput. Relatively high LLC hit rate implies many instructions are executed for each LLC miss.These instructions fill the reorder buffer in the core, preventing future loads that will miss in the LLC from issuing early, resulting in unused memory bandwidth.
+3. Multithreading has limited potential for graph processing
 
 
 ### Memory Bandwidth Potential
@@ -28,4 +32,4 @@ A load must satisfy the following four requirements:
 
 Memory bandwidth cannot be a bottleneck unless the first three requirements are satisfied.
 
-* The biggest bandwidth bottleneck is the instruction window because it cannot hold a sufﬁcient number of instructions to incorporate the needed number of rare cache-missing instructions.
+* The biggest bandwidth bottleneck is the instruction window because it cannot hold a sufﬁcient number of instructions to incorporate the needed number of cache-missing instructions.
