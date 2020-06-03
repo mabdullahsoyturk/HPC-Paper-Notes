@@ -3,3 +3,4 @@ Reference: A. Basak et al., "Analysis and Optimization of the Memory Hierarchy f
 
 ## Notes:
 
+* This paper claims that main bottleneck is load-load dependency chains, in contrast to locality paper (this one says the main bottleneck is instruction window size).
