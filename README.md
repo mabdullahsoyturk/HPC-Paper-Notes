@@ -6,3 +6,4 @@
 4. [GAIL: The Graph Algorithm Iron Law](The-Graph-Algorithm-Iron-Law)
 5. [Locality Exists in Graph Processing: Workload Characterization on an Ivy Bridge Serve](Locality-Exists-In-Graph-Processing)
 6. [Graphicionado A High Performance and Energy-Efficient Accelerator for Graph Analytics](Graphicionado-A-High-Performance-and-Energy-Efficient-Accelerator-for-Graph-Analytics)
+7. [Analysis and Optimization of the Memory Hierarchy for Graph Processing Workloads](Analysis-and-Optimization-of-the-Memory-Hierarchy-for-Graph-Processing-Workloads)
