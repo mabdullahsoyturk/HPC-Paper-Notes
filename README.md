@@ -7,3 +7,4 @@
 5. [Locality Exists in Graph Processing: Workload Characterization on an Ivy Bridge Serve](Locality-Exists-In-Graph-Processing)
 6. [Graphicionado A High Performance and Energy-Efficient Accelerator for Graph Analytics](Graphicionado-A-High-Performance-and-Energy-Efficient-Accelerator-for-Graph-Analytics)
 7. [Analysis and Optimization of the Memory Hierarchy for Graph Processing Workloads](Analysis-and-Optimization-of-the-Memory-Hierarchy-for-Graph-Processing-Workloads)
+8. [Alleviating Irregularity in Graph Analytics Acceleration: a Hardware/Software Co-Design Approach](Alleviating Irregularity in Graph Analytics Acceleration: a Hardware)

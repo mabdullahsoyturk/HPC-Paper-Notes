@@ -1,3 +1,6 @@
+# Alleviating Irregularity in Graph Analytics Acceleration: a Hardware Software Co-Design Approach
+Reference: Mingyu Yan, Xing Hu, Shuangchen Li, Abanti Basak, Han Li, Xin Ma, Itir Akgun, Yujing Feng, Peng Gu, Lei Deng, Xiaochun Ye, Zhimin Zhang, Dongrui Fan, and Yuan Xie. 2019. Alleviating Irregularity in Graph Analytics Acceleration: a Hardware/Software Co-Design Approach. In Proceedings of the 52nd Annual IEEE/ACM International Symposium on Microarchitecture (MICRO ’52). Association for Computing Machinery, New York, NY, USA, 615–628. DOI:https://doi.org/10.1145/3352460.3358318
+
 ## Questions
 - How do they achieve datapath decoupling?
 - How do they perform data-aware dynamic scheduling?
@@ -58,3 +61,6 @@ The optimizations include:
 * Determining the workload size during execution for scheduling a balanced workload
 * Obtaining the prefetching indication during execution for exact prefetching
 * Decoupling the phases into two pipeline stages to overlap workload scheduling and execution.
+
+#### Dynamically Determining Workload Size
+The key idea is to **determine the number of edges for each active vertex** by the offset array in the Apply phase, and use it in the Scatter phase of the next iteration.
