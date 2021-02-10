@@ -8,4 +8,5 @@
 6. [Graphicionado A High Performance and Energy-Efficient Accelerator for Graph Analytics](Graphicionado-A-High-Performance-and-Energy-Efficient-Accelerator-for-Graph-Analytics)
 7. [Analysis and Optimization of the Memory Hierarchy for Graph Processing Workloads](Analysis-and-Optimization-of-the-Memory-Hierarchy-for-Graph-Processing-Workloads)
 8. [Alleviating Irregularity in Graph Analytics Acceleration: a Hardware/Software Design Approach](Alleviating-Irregularity-in-Graph-Analytics-Acceleration)
-9. [GNN-Performance-Optimization](GNN-Performance-Optimization)
+9. [GNN Performance Optimization](GNN-Performance-Optimization)
+10. [Dissectiong the Graphcore IPU Architecture](Dissecting-the-Graphcore-IPU-Architecture)
