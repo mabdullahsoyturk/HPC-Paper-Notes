@@ -8,6 +8,8 @@
 * Can efficiently run applications that have **irregular and sparse data access patterns** and control flow.
 * Each thread can have completely distinct code and execution flow without incurring performance penalties (unlike GPUs).
 
+Architecture of a C2 board with 2 IPUs:
+
 ![Architecture](figures/architecture.png)
 
 ### CPU
