@@ -11,3 +11,4 @@
 9. [GNN Performance Optimization](GNN-Performance-Optimization)
 10. [Dissectiong the Graphcore IPU Architecture](Dissecting-the-Graphcore-IPU-Architecture)
 11. [Using the Graphcore IPU for Traditional HPC Applications](Using-the-Graphcore-IPU-for-Traditional-HPC-Applications)
+12. [Roofline: An Insightful Visual Performance Model](Roofline-An-Insightful-Visual-Performance-Model)
