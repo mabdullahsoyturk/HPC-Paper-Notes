@@ -55,3 +55,35 @@ Then, they compute the time between finish time of producer kernel (**GPU-kP**) 
 * PT is benefical for small workloads with few memory accesses and small arithmetic intensity.
 
 ### Load Balancing
+
+Two issues with non-PT:
+-  Vector processor efficiency
+-  Handling variable work items being consumed or produced.
+
+They design a test (a forest expansion) that emits a variable amount of work per thread and requires multiple stages to complete.
+
+* The algorithm starts with an initial number of input items. Each thread performs a predefined
+amount of FMAs in register space, after which the owning block generates zero, one, or two new items. 
+* So, items that generate another item are either roots or intermediate nodes. Items that do not generate work are leaves.
+* They experimented with two different forests: 
+1. Complete forest: Every input item generates a complete binary tree of a shallow, pre-specified depth 
+2. Tilted forest: The **first half** of the items on any given level generate no new items, and every item in the **second half** generates two new items.
+
+![Forests](figures/forest.png)
+
+* PT outperforms nonPT on **small, irregular work and regular deeply-recursive work**
+* PT tends to outperform nonPT when there are not many initial input elements and when the growth in elements is fairly constrained.
+
+![Complete](figures/complete.png)
+![Tilted](figures/tilted.png)
+
+
+### Producer-Consumer Locality
+Current hardware allows data sharing by **threads in the same block** via on-chip memory, but **threads in different blocks** must communicate through DRAM and use expensive intrinsics to guarantee coherency.
+
+They use two benchmarks:
+1. Large reduce. N float points. Sum all.
+2. Synthetic workload of FMAs in two stages. There are N inputs. First stage: perform arithmetic on each item. Second step: perform additional arithmetic on only a certain percentage of those items.
+
+
+### Global Synchronization
