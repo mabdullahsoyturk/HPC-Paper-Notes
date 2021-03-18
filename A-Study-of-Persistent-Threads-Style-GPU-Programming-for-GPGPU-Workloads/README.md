@@ -1,7 +1,7 @@
 ## Learn more about:
-* Programmable graphics pipelines like **ray tracing** and **Reyes style rendering**.
-* Persisten Threads
+* Persistent Threads
 * PT-style programming was lacking native hardware and programming API support at the time. Check whether this is still the case.
+* Check which core limitations of GPGPU programming mentioned in Section 2.1.1 still a limitation. 
 
 ## Notes
 
