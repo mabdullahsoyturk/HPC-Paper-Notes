@@ -1,7 +1,7 @@
 ## Learn more about:
 * Persistent Threads
 * PT-style programming was lacking native hardware and programming API support at the time. Check whether this is still the case.
-* Check which core limitations of GPGPU programming mentioned in Section 2.1.1 still a limitation. 
+* Check which core limitations of GPGPU programming mentioned in Section 2.1.1 still a limitation.
 
 ## Notes
 
@@ -29,6 +29,25 @@
 * Threads within each block allowed to communicate and share data at runtime via **L1 cache/shared memory or registers**.
 * Multiple thread blocks being scheduled onto each SM simultaneously, and each block **operating independently**.
 * The switching of blocks is managed entirely by a **hardware scheduler**.
+
+## Core Limitations of GPGPU Programming
+1. Host-Device Interface:
+* **Master-slave processing**: 
+
+Argument in the paper: Only the host processor has the ability to issue commands for data movement, synchronization and execution on the device outside of a kernel.
+
+Current Situation: This still holds.
+
+* **Kernel size**: 
+
+Argument in the paper: The dimensions of a block and the number of blocks per kernel invocation are passed as launch config.
+
+Current Situation: This still holds.
+
+2. Device-side Properties:
+* **Lifetime of a block**:
+
+Argument in the paper:
 
 ### Persistent Threads Programming Style
 * The developer’s view is that threads are active for the **entire duration** of a kernel. (in Non-PT, as blocks run to completion, threads corresponding to these blocks are “retired”, while a batch of threads are “launched” as new blocks are scheduled onto the SM)

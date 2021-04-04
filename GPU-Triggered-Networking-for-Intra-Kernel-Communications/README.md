@@ -1,5 +1,21 @@
 ## Notes
 
-* While many clusters employ peer-to-peer capabilities for direct data movement between NICs and GPUs, the control plane is routed through the host CPU. This restricts communication to only occur on GPU kernel boundaries (Host-driven Networking (HDN)).
-*  GPUDirect Async (GDS) is one of the HDNs. It allows the GPU to initiate pre-registered network messages by ringing a doorbell on the NIC.
-*  
+* Figures are pretty explanatory.
+
+![Networking Types](figures/networking.png)
+
+![Comparison](figures/comparison.png)
+
+## GPU-TN advantages
+
+* **GPU Triggered**: GPU initiates network transfers by communicating directly with the network adaptor (it rings the doorbell on NIC)
+
+* **Intra-kernel Initiation**: Doesn't have to make the transfers on boundaries.
+
+* **Reduce GPU Overhead**: CPU constructs the network packet and registers it to the NIC (No need for network stack on GPU).
+
+* **Reduce CPU Overhead**: Does not require helper threads like GPU Host Networking. 
+
+* **Relaxed Synchronization**: The GPU can initiate messages that have not yet been posted by the CPU, providing hardware-level synchronization to associate the two operations on the NIC.
+
+![Flow](figures/flow.png)
