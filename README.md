@@ -13,4 +13,5 @@
 11. [Using the Graphcore IPU for Traditional HPC Applications](Using-the-Graphcore-IPU-for-Traditional-HPC-Applications)
 12. [Roofline: An Insightful Visual Performance Model](Roofline-An-Insightful-Visual-Performance-Model)
 13. [CUDA New Features and Beyond](CUDA-New-Features-and-Beyond)
-14. [A-Study-of-Persistent-Threads-Style-GPU-Programming-for-GPGPU-Workloads](A-Study-of-Persistent-Threads-Style-GPU-Programming-for-GPGPU-Workloads)
+14. [A Study of Persistent Threads Style GPU Programming for GPGPU Workloads](A-Study-of-Persistent-Threads-Style-GPU-Programming-for-GPGPU-Workloads)
+15. [BrainTorrent: A Peer to Peer Environment for Decentralized Federated Learning](BrainTorrent-A-Peer-to-Peer-Environment-for-Decentralized-Federated-Learning)
