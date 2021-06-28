@@ -18,5 +18,6 @@
 
 # Two Papers A Week Goal (Starting from 28.06.2021)
 ## 28.06.2021 - 04.07.2021
-* Whippletree: Task-based Scheduling of Dynamic Workloads on the GPU (need to dig into the implementation)
-* Groute: Asynchronous Multi-GPU Programming Model with Applications to Large-scale Graph Processing (need to dig into the implementation)
+
+* [Whippletree: Task-based Scheduling of Dynamic Workloads on the GPU](Whippletree:-Task-based-Scheduling-of-Dynamic-Workloads-on-the-GPU) (need to dig into the implementation)
+* [Groute: Asynchronous Multi-GPU Programming Model with Applications to Large-scale Graph Processing](Groute:-Asynchronous-Multi-GPU-Programming-Model-with-Applications-to-Large-scale-Graph-Processing) (need to dig into the implementation)
