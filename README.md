@@ -15,3 +15,8 @@
 13. [CUDA New Features and Beyond](CUDA-New-Features-and-Beyond)
 14. [A Study of Persistent Threads Style GPU Programming for GPGPU Workloads](A-Study-of-Persistent-Threads-Style-GPU-Programming-for-GPGPU-Workloads)
 15. [BrainTorrent: A Peer to Peer Environment for Decentralized Federated Learning](BrainTorrent-A-Peer-to-Peer-Environment-for-Decentralized-Federated-Learning)
+
+# Two Papers A Week Goal (Starting from 28.06.2021)
+## 28.06.2021 - 04.07.2021
+* Whippletree: Task-based Scheduling of Dynamic Workloads on the GPU (need to dig into the implementation)
+* Groute: Asynchronous Multi-GPU Programming Model with Applications to Large-scale Graph Processing (need to dig into the implementation)
