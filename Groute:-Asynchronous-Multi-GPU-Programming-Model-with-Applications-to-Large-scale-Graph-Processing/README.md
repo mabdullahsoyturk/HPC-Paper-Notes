@@ -14,6 +14,8 @@ https://github.com/groute/groute
 * In indirect copy, the source GPU “pushes” information to host memory first, after which it is “pulled” by the destination GPU using host flags and system-wide memory fences for synchronization.
 * The link/router model does not define a global address space or remote memory access operations, but functions as a message-passing distributed memory environment.
 * Does not take topology into account.
+* Interesting stuff: pipelined receiver, double-tripple buffering, distributed worklist, event-pools, event-futures
+* Apps implemented: BFS, SSSP, PR, CC
 
 ![Push-Pull](figures/push-pull.png)
 ![Performance-Comparison](figures/perf.png)
@@ -96,3 +98,19 @@ void WorkerThread(device_t dev, Link in, Link out) {
 The above code gives a good overall view of the implementation. Dig into https://github.com/groute/groute for implementation details.
 
 TODO: Check distributed worklist implementation.
+
+![Overview](figures/overview.png)
+
+### Distributed Worklist
+
+* Maintains a list of computations (work-items). Each computation can create new computations that are queued to the same list.
+* Global coordination and work counting is centralized and managed by
+the host.
+* During runtime, devices periodically (check how often this happens) report produced and consumed work-items for tracking purposes. Once the number of total work-items becomes zero, processing stops and a shutdown signal is sent to all participating devices via router links.
+* The worklist is implemented over a single, system-wide router.
+* Each device contains a locally managed worklist, which comprises one or more multiple-producer-single-consumer queues for local tasks. 
+* Two threads per device: worker thread and receiver thread for communication and work-item circulation.
+* Each device receives info from previous device. 
+* Received info is filtered, relevant info is pushed onto the local worklist, irrelevant info is sent to the next device.
+* At the same time, the worker thread processes existing work-items, separating the resulting items to local and remote work (SplitSend) and packing outgoing information as necessary.
+* To implement a algo with Groute, the programmer needs to give five functions: Pack, Unpack, OnSend, OnReceive, and GetPrio. 
