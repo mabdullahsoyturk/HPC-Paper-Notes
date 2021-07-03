@@ -1,9 +1,11 @@
-# Learn more about this stuff
+# WhippleTree
+
+## Learn more about this stuff
 
 * For multiprogramming, check multi-instance gpu on A100.
 * Check whether parent and child kernels need to communicate through global memory.
 
-# Notes
+## Notes
 
 Problems that they want to address:
 
@@ -34,6 +36,7 @@ In a **persistent megakernel** all threads run in a loop, draw some work from a 
 ## Time-sliced Kernels
 
 Uses dedicated queues per kernel.
+
 * TSK is only applicable to problems which can be efficiently separated into individual stages.
 
 ## Dynamic Parallelism
@@ -46,11 +49,13 @@ Allows launching new kernels directly from device code.
 ## Programming Model of WhippleTree
 
 There are three types of tasks:
+
 * Level 0 Tasks: Tasks that must be executed by threads of the same warp.
 * Level 1 Tasks: Tasks that threads are to be executed on the same SM.
 * Level 2 Tasks: Single-threaded tasks that can run on any SM.
 
 Building blocks:
+
 * Work Items: Data elements to be processed.
 * Procedures: Code that implements the processing of work items. Declares number of threads required to process a single work item.
 * Tasks: Created by specifying a work item and the procedure the work item should be handed to. Whippletree takes care of scheduling available tasks for execution in a way that respects the constraints associated with the respective task type. During execution, a task can dynamically spawn new tasks.
@@ -92,6 +97,7 @@ struct Split : public Procedure {
     }
 };
 ```
+
 Host code to init and run a simple Reyes pipeline:
 
 ```C++
@@ -113,3 +119,17 @@ void initAndRunPipeline(Model& model) {
     reyes.run();
 }
 ```
+
+## Implementation
+
+* Blocks of threads (worker-blocks) are launched to exactly fill up all SMs. These worker-blocks execute a loop drawing tasks from work queues (one queue per procedure).
+* Procedures are implemented as branches in the main loop. When new tasks are generated, they are inserted into the queues.
+* Synchs all threads inside a block at the beginning of each loop iteration to have a sufficient number of idle threads available to start the execution of any procedure.
+
+### Dynamic worker-blocks
+
+If the queue holds:
+
+* Level 0 tasks: Computes how many tasks fit in a warp and try to fill up all warps in the block.
+* Level 1 tasks: Draws as many level-1 tasks from the queue as can be executed concurrently with the available number of threads.
+* Level 2 tasks: Tries to draw one task for each thread.
