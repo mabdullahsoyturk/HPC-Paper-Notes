@@ -28,4 +28,4 @@
 ### 05.07.2021 - 12.07.2021
 
 * [Softshell: Dynamic Scheduling on GPUs](Softshell:-Dynamic-Scheduling-on-GPUs)
-* It did not decide on the second one yet.
+* [The Broker Queue: A Fast, Linearizable FIFO Queue for Fine-Granular Work Distribution on the GPU](The-Broker-Queue:-A-Fast,-Linearizable-FIFO-Queue-for-Fine-Granular-Work-Distribution-on-the-GPU)
