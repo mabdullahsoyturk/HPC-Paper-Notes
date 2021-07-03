@@ -27,6 +27,11 @@
 
 ### 05.07.2021 - 12.07.2021
 
-* [Ouroboros: Virtualized Queues for Dynamic Memory Management on GPUs](Ouroboros:-Virtualized-Queues-for-Dynamic-Memory-Management-on-GPUs)
 * [Softshell: Dynamic Scheduling on GPUs](Softshell:-Dynamic-Scheduling-on-GPUs)
 * [The Broker Queue: A Fast, Linearizable FIFO Queue for Fine-Granular Work Distribution on the GPU](The-Broker-Queue:-A-Fast,-Linearizable-FIFO-Queue-for-Fine-Granular-Work-Distribution-on-the-GPU)
+
+
+## Potential Readings
+
+* [Ouroboros: Virtualized Queues for Dynamic Memory Management on GPUs](Ouroboros:-Virtualized-Queues-for-Dynamic-Memory-Management-on-GPUs)
+* [DynaSOAr: A CUDA Framework for Single-Method Multiple-Objects Applications](https://github.com/prg-titech/dynasoar)
