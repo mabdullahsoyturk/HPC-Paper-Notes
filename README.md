@@ -1,4 +1,4 @@
-## List of Papers
+# List of Papers
 
 1. [Energy Efficient Architecture for Graph Analytics Accelerators](Energy-Efficient-Architecture-for-Graph-Analytics-Accelerators)
 2. [A Template Based Design Methodology for Graph Parallel Hardware Accelerators](A-Template-Based-Design-Methodology-for-Graph-Parallel-Hardware-Accelerators)
@@ -18,14 +18,14 @@
 16. [Whippletree: Task-based Scheduling of Dynamic Workloads on the GPU](Whippletree:-Task-based-Scheduling-of-Dynamic-Workloads-on-the-GPU)
 17. [Groute: Asynchronous Multi-GPU Programming Model with Applications to Large-scale Graph Processing](Groute:-Asynchronous-Multi-GPU-Programming-Model-with-Applications-to-Large-scale-Graph-Processing)
 
-# Two Papers A Week Goal (Starting from 28.06.2021)
+## Two Papers A Week Goal (Starting from 28.06.2021)
 
-## 28.06.2021 - 04.07.2021
+### 28.06.2021 - 04.07.2021
 
 * [Whippletree: Task-based Scheduling of Dynamic Workloads on the GPU](Whippletree:-Task-based-Scheduling-of-Dynamic-Workloads-on-the-GPU)
 * [Groute: Asynchronous Multi-GPU Programming Model with Applications to Large-scale Graph Processing](Groute:-Asynchronous-Multi-GPU-Programming-Model-with-Applications-to-Large-scale-Graph-Processing)
 
-## 05.07.2021 - 12.07.2021
+### 05.07.2021 - 12.07.2021
 
 * [Softshell: Dynamic Scheduling on GPUs](Softshell:-Dynamic-Scheduling-on-GPUs)
 * It did not decide on the second one yet.
