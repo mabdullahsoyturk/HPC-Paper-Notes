@@ -133,3 +133,12 @@ If the queue holds:
 * Level 0 tasks: Computes how many tasks fit in a warp and try to fill up all warps in the block.
 * Level 1 tasks: Draws as many level-1 tasks from the queue as can be executed concurrently with the available number of threads.
 * Level 2 tasks: Tries to draw one task for each thread.
+
+### Queue Management
+
+Two level hierarchy: 
+
+* A small amount of shared memory is used to implement the top level of the hierarchy. Requests are always answered by the top level queues if possible. 
+* To support load balancing among worker-blocks and SM units, the lower-level hierarchy implements queues in global memory.
+* Global queues use a fixed size ring buffer with front and back pointers.
+* After deciding the worker-block size, the remaining shared memory is reserved for local queuing.
