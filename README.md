@@ -22,8 +22,8 @@
 
 ### 28.06.2021 - 04.07.2021
 
-* [Whippletree: Task-based Scheduling of Dynamic Workloads on the GPU](Whippletree:-Task-based-Scheduling-of-Dynamic-Workloads-on-the-GPU)
-* [Groute: Asynchronous Multi-GPU Programming Model with Applications to Large-scale Graph Processing](Groute:-Asynchronous-Multi-GPU-Programming-Model-with-Applications-to-Large-scale-Graph-Processing)
+* [Whippletree: Task-based Scheduling of Dynamic Workloads on the GPU](Whippletree-Task-based-Scheduling-of-Dynamic-Workloads-on-the-GPU)
+* [Groute: Asynchronous Multi-GPU Programming Model with Applications to Large-scale Graph Processing](Groute-Asynchronous-Multi-GPU-Programming-Model-with-Applications-to-Large-scale-Graph-Processing)
 
 ### 05.07.2021 - 12.07.2021
 
