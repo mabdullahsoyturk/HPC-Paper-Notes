@@ -9,7 +9,7 @@
 7. [Analysis and Optimization of the Memory Hierarchy for Graph Processing Workloads](Analysis-and-Optimization-of-the-Memory-Hierarchy-for-Graph-Processing-Workloads)
 8. [Alleviating Irregularity in Graph Analytics Acceleration: a Hardware/Software Design Approach](Alleviating-Irregularity-in-Graph-Analytics-Acceleration)
 9. [GNN Performance Optimization](GNN-Performance-Optimization)
-10. [Dissectiong the Graphcore IPU Architecture](Dissecting-the-Graphcore-IPU-Architecture)
+10. [Dissecting the Graphcore IPU Architecture](Dissecting-the-Graphcore-IPU-Architecture)
 11. [Using the Graphcore IPU for Traditional HPC Applications](Using-the-Graphcore-IPU-for-Traditional-HPC-Applications)
 12. [Roofline: An Insightful Visual Performance Model](Roofline-An-Insightful-Visual-Performance-Model)
 13. [CUDA New Features and Beyond](CUDA-New-Features-and-Beyond)
