@@ -25,11 +25,15 @@
 * [Whippletree: Task-based Scheduling of Dynamic Workloads on the GPU](Whippletree-Task-based-Scheduling-of-Dynamic-Workloads-on-the-GPU)
 * [Groute: Asynchronous Multi-GPU Programming Model with Applications to Large-scale Graph Processing](Groute-Asynchronous-Multi-GPU-Programming-Model-with-Applications-to-Large-scale-Graph-Processing)
 
-### 05.07.2021 - 12.07.2021
+### 05.07.2021 - 11.07.2021
 
 * [A Computational-Graph Partitioning Method for Training Memory-Constrained DNNs](A-Computational-Graph-Partitioning-Method-for-Training-Memory-Constrained-DNNs)
 * [The Broker Queue: A Fast, Linearizable FIFO Queue for Fine-Granular Work Distribution on the GPU](The-Broker-Queue-A-Fast-Linearizable-FIFO-Queue-for-Fine-Granular-Work-Distribution-on-the-GPU)
 
+### 12.07.2021 - 18.07.2021
+
+* [Softshell: Dynamic Scheduling on GPUs](Softshell-Dynamic-Scheduling-on-GPUs)
+* [Gravel: Fine-Grain GPU-Initiated Network Messages](https://research.cs.wisc.edu/multifacet/papers/sc17_gravel.pdf)
 
 ## Potential Readings
 
