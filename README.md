@@ -17,6 +17,10 @@
 15. [BrainTorrent: A Peer to Peer Environment for Decentralized Federated Learning](BrainTorrent-A-Peer-to-Peer-Environment-for-Decentralized-Federated-Learning)
 16. [Whippletree: Task-based Scheduling of Dynamic Workloads on the GPU](./Whippletree:Task-based-Scheduling-of-Dynamic-Workloads-on-the-GPU)
 17. [Groute: Asynchronous Multi-GPU Programming Model with Applications to Large-scale Graph Processing](./Groute:Asynchronous-Multi-GPU-Programming-Model-with-Applications-to-Large-scale-Graph-Processing)
+18. [A Computational-Graph Partitioning Method for Training Memory-Constrained DNNs](A-Computational-Graph-Partitioning-Method-for-Training-Memory-Constrained-DNNs)
+19. [The Broker Queue: A Fast, Linearizable FIFO Queue for Fine-Granular Work Distribution on the GPU](The-Broker-Queue-A-Fast-Linearizable-FIFO-Queue-for-Fine-Granular-Work-Distribution-on-the-GPU)
+20. [Softshell: Dynamic Scheduling on GPUs](Softshell-Dynamic-Scheduling-on-GPUs)
+21. [Gravel: Fine-Grain GPU-Initiated Network Messages](Gravel-Fine-Grain-GPU-Initiated-Network-Messages)
 
 ## Two Papers A Week Goal (Starting from 28.06.2021)
 
@@ -38,7 +42,6 @@
 ## Potential Readings
 
 * [Softshell: Dynamic Scheduling on GPUs](Softshell:-Dynamic-Scheduling-on-GPUs)
-* [Gravel: Fine-Grain GPU-Initiated Network Messages](https://research.cs.wisc.edu/multifacet/papers/sc17_gravel.pdf)
 * [Ouroboros: Virtualized Queues for Dynamic Memory Management on GPUs](Ouroboros:-Virtualized-Queues-for-Dynamic-Memory-Management-on-GPUs)
 * [DynaSOAr: A CUDA Framework for Single-Method Multiple-Objects Applications](https://github.com/prg-titech/dynasoar)
 * [LaPerm: Locality Aware Scheduler for Dynamic Parallelism on GPUs](https://ieeexplore.ieee.org/document/7551424)
