@@ -62,3 +62,4 @@ Challenges:
 * Network Interface = NI
 * Wavefront (Warp) = WF
 * Wavegroup (Block) = WG
+* Compute Unit (Streaming Multiprocessor) = CU
