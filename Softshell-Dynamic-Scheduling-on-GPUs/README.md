@@ -8,7 +8,14 @@ Code: [https://www.tugraz.at/institute/icg/research/team-schmalstieg/software/gp
 * There was no such thing as dynamic parallelism at the time this paper was written. Keep that it mind.
 * Work can be issued on the device.
 * Supports arbitrary scheduling stragies such as **dynamic priorities** and **real-time scheduling**.
-* The user can influence, pause, and cancel work that is already submitted.
+* The user can influence, pause, and cancel work that is already submitted (This doesn't seem too important for my research).
+
+Notions: 
+
+* **Work items** describe data to be processed by a single thread,
+* **Workpackages** define a collection of work items,
+* **Procedures** describe the functions executed for a work item,
+* **Events** are triggered by the user and initiate the execution by generating work items and workpackages.
 
 
 ### Limitations of Traditional GPU Programming

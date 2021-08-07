@@ -43,3 +43,24 @@
 * [DynaSOAr: A CUDA Framework for Single-Method Multiple-Objects Applications](https://github.com/prg-titech/dynasoar)
 * [LaPerm: Locality Aware Scheduler for Dynamic Parallelism on GPUs](https://ieeexplore.ieee.org/document/7551424)
 * [Dynamic Task Parallelism with a GPU Work-Stealing Runtime System](Dynamic-Task-Parallelism-with-a-GPU-Work-Stealing)
+
+### Coprocessor Model
+
+Disallows GPUs to access NI. You write CPU code for communication before and after a GPU kernel.
+
+* [Efficient Inter-Node MPI Communication Using GPUDirect RDMA for InfiniBand Clusters with NVIDIA GPUs](https://ieeexplore.ieee.org/document/6687341)
+* [Optimized GPU to GPU Communication for InfiniBand Clusters](https://link.springer.com/article/10.1007/s00450-011-0171-3)
+
+### Message-per-lane Model
+
+GPU threads independently access to NI. 
+
+* [GGAS: Global GPU Address Spaces for Efficient Communication in Heterogeneous Clusters](https://ieeexplore.ieee.org/document/6702638)
+* [Simplifying Multi-GPU Communication with NVSHMEM](http://on-demand.gputechconf.com/gtc/2016/presentation/s6378-nathan-luehr-simplyfing-multi-gpu-communication-nvshmem.pdf) -> Not a paper but good to read.
+
+### Coalesced APIs
+
+WIs coordinate with their neighbors to access the NI
+
+* [GPUnet: Networking Abstractions for GPU Programs](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-kim.pdf)
+* [GPUrdma: GPU-Side Library for High Performance Networking from GPU Kernels](https://dl.acm.org/doi/10.1145/2931088.2931091)
