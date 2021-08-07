@@ -33,7 +33,7 @@
 ### 12.07.2021 - 18.07.2021
 
 * [Softshell: Dynamic Scheduling on GPUs](Softshell-Dynamic-Scheduling-on-GPUs)
-* [Gravel: Fine-Grain GPU-Initiated Network Messages](https://research.cs.wisc.edu/multifacet/papers/sc17_gravel.pdf)
+* [Gravel: Fine-Grain GPU-Initiated Network Messages](Gravel-Fine-Grain-GPU-Initiated-Network-Messages)
 
 ## Potential Readings
 
@@ -48,8 +48,8 @@
 
 Disallows GPUs to access NI. You write CPU code for communication before and after a GPU kernel.
 
-* [Efficient Inter-Node MPI Communication Using GPUDirect RDMA for InfiniBand Clusters with NVIDIA GPUs](https://ieeexplore.ieee.org/document/6687341)
-* [Optimized GPU to GPU Communication for InfiniBand Clusters](https://link.springer.com/article/10.1007/s00450-011-0171-3)
+* [Efficient Inter-Node MPI Communication Using GPUDirect RDMA for InfiniBand Clusters with NVIDIA GPUs](https://ieeexplore.ieee.org/document/6687341) -> CUDA RDMA
+* [Optimized GPU to GPU Communication for InfiniBand Clusters](https://link.springer.com/article/10.1007/s00450-011-0171-3) -> CUDA-aware MPI
 
 ### Message-per-lane Model
 
