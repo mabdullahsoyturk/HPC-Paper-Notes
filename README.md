@@ -21,6 +21,7 @@
 19. [The Broker Queue: A Fast, Linearizable FIFO Queue for Fine-Granular Work Distribution on the GPU](The-Broker-Queue-A-Fast-Linearizable-FIFO-Queue-for-Fine-Granular-Work-Distribution-on-the-GPU)
 20. [Softshell: Dynamic Scheduling on GPUs](Softshell-Dynamic-Scheduling-on-GPUs)
 21. [Gravel: Fine-Grain GPU-Initiated Network Messages](Gravel-Fine-Grain-GPU-Initiated-Network-Messages)
+22. [SPIN:Seamless Operating System Integration of Peer to Peer DMA Between SSDs and GPUs](SPIN-Seamless-Operating-System-Integration-of-Peer-to-Peer-DMA-Between-SSDs-and-GPUs)
 
 ## Two Papers A Week Goal (Starting from 28.06.2021)
 
@@ -38,6 +39,19 @@
 
 * [Softshell: Dynamic Scheduling on GPUs](Softshell-Dynamic-Scheduling-on-GPUs)
 * [Gravel: Fine-Grain GPU-Initiated Network Messages](Gravel-Fine-Grain-GPU-Initiated-Network-Messages)
+
+### 19.07.2021 - 25.07.2021
+Need to pass my notes from my tablet
+
+### 26.07.2021 - 01.07.2021
+Need to pass my notes from my tablet
+
+### 02.08.2021 - 08.08.2021
+Need to pass my notes from my tablet
+
+### 09.08.2021 - 15.08.2021
+
+* [SPIN:Seamless Operating System Integration of Peer to Peer DMA Between SSDs and GPUs](SPIN-Seamless-Operating-System-Integration-of-Peer-to-Peer-DMA-Between-SSDs-and-GPUs)
 
 ## Potential Readings
 
