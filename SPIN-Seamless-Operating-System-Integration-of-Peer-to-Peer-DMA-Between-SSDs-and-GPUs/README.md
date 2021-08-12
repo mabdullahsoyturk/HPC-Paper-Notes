@@ -2,6 +2,12 @@
 
 Bergman, Shai & Brokhman, Tanya & Cohen, Tzachi & Silberstein, Mark. (2019). SPIN: Seamless operating system integration of peer-to-peer DMA between SSDs and GPUs. ACM Transactions on Computer Systems. 36. 1-26. 10.1145/3309987.
 
+## Learn more about this stuff
+
+* Virtual File System layer
+
+Software layer in the kernel that provides the filesystem interface to userspace programs. It is an abstraction within the kernel which allows different filesystem implementations to coexist. (https://www.kernel.org/doc/html/latest/filesystems/vfs.html)
+
 ## Notes
 
 * Integrates P2P into the file I/O layer in the OS.
@@ -47,8 +53,8 @@ device-specific rules.
 * P-router invokes P-readahead mechanism which identifies sequential access pattern and prefetches file contents into a GPU read-ahead partition.
 * P-router checks with P-cache whether the request can be served from the page cache.
 * To invoke P2P via direct disk I/O interface, P-router employs an address tunneling mechanism which delivers the GPU address through unmodified VFS stack and block layers down to the generic NVMe driver.
+* Address tunneling uses a phony CPU buffer as an envelope for the GPU buffer address.
 
 ![Tunneling](./figures/tunneling.png)
 
-
-The rest is implementation details and results on benchmarks.
+The rest is implementation details and results on benchmarks. 
