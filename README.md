@@ -56,7 +56,7 @@ Need to pass my notes from my tablet
 
 ### 16.08.2021 - 23.08.2021
 
-* [PyTorch: An Imperative Style, High-Performance Deep Learning Library](https://arxiv.org/pdf/1912.01703.pdf)
+* [PyTorch: An Imperative Style, High-Performance Deep Learning Library](https://arxiv.org/pdf/1912.01703.pdf) -> Zero technical depth. Please give my time back.
 
 ## Potential Readings
 
