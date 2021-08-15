@@ -54,6 +54,10 @@ Need to pass my notes from my tablet
 * [SPIN:Seamless Operating System Integration of Peer to Peer DMA Between SSDs and GPUs](SPIN-Seamless-Operating-System-Integration-of-Peer-to-Peer-DMA-Between-SSDs-and-GPUs)
 * [GPU-to-CPU Callbacks](https://link.springer.com/content/pdf/10.1007%2F978-3-642-21878-1_45.pdf)
 
+### 16.08.2021 - 23.08.2021
+
+* [PyTorch: An Imperative Style, High-Performance Deep Learning Library](https://arxiv.org/pdf/1912.01703.pdf)
+
 ## Potential Readings
 
 * [Ouroboros: Virtualized Queues for Dynamic Memory Management on GPUs](Ouroboros:-Virtualized-Queues-for-Dynamic-Memory-Management-on-GPUs)
