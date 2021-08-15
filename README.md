@@ -52,6 +52,7 @@ Need to pass my notes from my tablet
 ### 09.08.2021 - 15.08.2021
 
 * [SPIN:Seamless Operating System Integration of Peer to Peer DMA Between SSDs and GPUs](SPIN-Seamless-Operating-System-Integration-of-Peer-to-Peer-DMA-Between-SSDs-and-GPUs)
+* [GPU-to-CPU Callbacks](https://link.springer.com/content/pdf/10.1007%2F978-3-642-21878-1_45.pdf)
 
 ## Potential Readings
 
