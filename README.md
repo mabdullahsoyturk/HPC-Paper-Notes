@@ -66,6 +66,8 @@ Need to pass my notes from my tablet
 ### 23.08.2021 - 29.08.2021
 
 * [Productivity, Portability, Performance: Data-Centric Python](Productivity-Portability-Performance-Data-Centric-Python)
+* [Stateful Dataflow Multigraphs: A data-centric
+model for performance portability on heterogeneous architectures](https://arxiv.org/abs/1902.10345)
 
 ## Potential Readings
 
