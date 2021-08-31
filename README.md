@@ -67,7 +67,7 @@ Need to pass my notes from my tablet
 
 * [Productivity, Portability, Performance: Data-Centric Python](Productivity-Portability-Performance-Data-Centric-Python)
 * [Stateful Dataflow Multigraphs: A data-centric
-model for performance portability on heterogeneous architectures](https://arxiv.org/abs/1902.10345)
+model for performance portability on heterogeneous architectures](Stateful-Dataflow-Multigraphs-A-Data-Centric-Model-for-Performance-Portability-on-Heterogeneous-Architectures)
 
 ## Potential Readings
 
