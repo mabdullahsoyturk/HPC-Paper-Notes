@@ -23,6 +23,9 @@
 21. [Gravel: Fine-Grain GPU-Initiated Network Messages](Gravel-Fine-Grain-GPU-Initiated-Network-Messages)
 22. [SPIN:Seamless Operating System Integration of Peer to Peer DMA Between SSDs and GPUs](SPIN-Seamless-Operating-System-Integration-of-Peer-to-Peer-DMA-Between-SSDs-and-GPUs)
 23. [Automatic Graph Partitioning for Very Large-scale Deep Learning](Automatic-Graph-Partitioning-for-Very-Large-scale-Deep-Learning)
+24. [Stateful Dataflow Multigraphs: A data-centric
+model for performance portability on heterogeneous architectures](Stateful-Dataflow-Multigraphs-A-Data-Centric-Model-for-Performance-Portability-on-Heterogeneous-Architectures)
+25. [Productivity, Portability, Performance: Data-Centric Python](Productivity-Portability-Performance-Data-Centric-Python)
 
 ## Two Papers A Week Goal (Starting from 28.06.2021)
 
@@ -65,9 +68,9 @@ Need to pass my notes from my tablet
 
 ### 23.08.2021 - 29.08.2021
 
-* [Productivity, Portability, Performance: Data-Centric Python](Productivity-Portability-Performance-Data-Centric-Python)
 * [Stateful Dataflow Multigraphs: A data-centric
 model for performance portability on heterogeneous architectures](Stateful-Dataflow-Multigraphs-A-Data-Centric-Model-for-Performance-Portability-on-Heterogeneous-Architectures)
+* [Productivity, Portability, Performance: Data-Centric Python](Productivity-Portability-Performance-Data-Centric-Python)
 
 ## Potential Readings
 
