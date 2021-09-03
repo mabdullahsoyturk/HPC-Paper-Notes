@@ -76,6 +76,7 @@ model for performance portability on heterogeneous architectures](Stateful-Dataf
 * [DynaSOAr: A CUDA Framework for Single-Method Multiple-Objects Applications](https://github.com/prg-titech/dynasoar)
 * [LaPerm: Locality Aware Scheduler for Dynamic Parallelism on GPUs](https://ieeexplore.ieee.org/document/7551424)
 * [Dynamic Task Parallelism with a GPU Work-Stealing Runtime System](Dynamic-Task-Parallelism-with-a-GPU-Work-Stealing)
+* [Optimizing Batched Winograd Convolution on GPUs](https://www.cse.ust.hk/~weiwa/papers/yan-ppopp20.pdf)
 
 ### Coprocessor Model
 
