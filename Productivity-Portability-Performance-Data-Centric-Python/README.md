@@ -49,10 +49,10 @@ Then, they perform transformations on this (redundant copy removal, inlining etc
 * They only discuss results produced in an automated fashion which is good.
 
 * Auto optimizer performs the following passes:
-  - **Map scope cleanup**: Removes degenerate maps of size 1. Collapses nested maps together to form multidimensional maps.
-  - **Greedy subgraph fusion**: Collects all maps in each state and fuses largest contiguous subgraphs that share the same iteration space.
-  - **Tile WCR maps**: Tiles parallel maps with write-conflicts that result in atomics.
-  - **Transient allocation mitigation**: Move constant-sized and small arrays to the stack, and make temporary data containers persistent if size only depends on input parameters.
+  * **Map scope cleanup**: Removes degenerate maps of size 1. Collapses nested maps together to form multidimensional maps.
+  * **Greedy subgraph fusion**: Collects all maps in each state and fuses largest contiguous subgraphs that share the same iteration space.
+  * **Tile WCR maps**: Tiles parallel maps with write-conflicts that result in atomics.
+  * **Transient allocation mitigation**: Move constant-sized and small arrays to the stack, and make temporary data containers persistent if size only depends on input parameters.
 
   The rest is platform dependent optimizations.
 
