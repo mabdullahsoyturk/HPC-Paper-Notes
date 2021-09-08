@@ -72,6 +72,11 @@ Need to pass my notes from my tablet
 model for performance portability on heterogeneous architectures](Stateful-Dataflow-Multigraphs-A-Data-Centric-Model-for-Performance-Portability-on-Heterogeneous-Architectures)
 * [Productivity, Portability, Performance: Data-Centric Python](Productivity-Portability-Performance-Data-Centric-Python)
 
+### 30.08.2021 - 05.09.2021
+
+* [Analyzing Put/Get APIs for Thread-collaborative Processors](https://ieeexplore.ieee.org/document/7103479)
+* [Analyzing Communication Models for Distributed Thread-Collaborative Processors in Terms of Energy and Time](https://ieeexplore.ieee.org/document/7095817)
+
 ## Potential Readings
 
 * [Dynamic Graphs on GPUs](https://ieeexplore.ieee.org/document/9139818)
