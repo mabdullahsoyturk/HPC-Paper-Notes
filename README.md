@@ -77,6 +77,10 @@ model for performance portability on heterogeneous architectures](Stateful-Dataf
 * [Analyzing Put/Get APIs for Thread-collaborative Processors](https://ieeexplore.ieee.org/document/7103479)
 * [Analyzing Communication Models for Distributed Thread-Collaborative Processors in Terms of Energy and Time](https://ieeexplore.ieee.org/document/7095817)
 
+### 06.09.2021 - 12.09.2021
+
+* [Interferences between Communications and Computations in Distributed HPC Systems](Interferences-between-Communications-and-Computations-in-Distributed-HPC-Systems)
+
 ## Potential Readings
 
 * [Dynamic Graphs on GPUs](https://ieeexplore.ieee.org/document/9139818)
