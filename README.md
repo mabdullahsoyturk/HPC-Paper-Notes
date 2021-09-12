@@ -26,6 +26,7 @@
 24. [Stateful Dataflow Multigraphs: A data-centric
 model for performance portability on heterogeneous architectures](Stateful-Dataflow-Multigraphs-A-Data-Centric-Model-for-Performance-Portability-on-Heterogeneous-Architectures)
 25. [Productivity, Portability, Performance: Data-Centric Python](Productivity-Portability-Performance-Data-Centric-Python)
+26. [Interferences between Communications and Computations in Distributed HPC Systems](Interferences-between-Communications-and-Computations-in-Distributed-HPC-Systems)
 
 ## Two Papers A Week Goal (Starting from 28.06.2021)
 
@@ -80,6 +81,7 @@ model for performance portability on heterogeneous architectures](Stateful-Dataf
 ### 06.09.2021 - 12.09.2021
 
 * [Interferences between Communications and Computations in Distributed HPC Systems](Interferences-between-Communications-and-Computations-in-Distributed-HPC-Systems)
+* 
 
 ## Potential Readings
 
