@@ -81,7 +81,7 @@ model for performance portability on heterogeneous architectures](Stateful-Dataf
 ### 06.09.2021 - 12.09.2021
 
 * [Interferences between Communications and Computations in Distributed HPC Systems](Interferences-between-Communications-and-Computations-in-Distributed-HPC-Systems)
-* 
+* [Memory Bandwidth Contention: Communication vs Computation Tradeoffs in Supercomputers with Multicore Architectures](Memory-Bandwidth-Contention-Communication-vs-Computation-Tradeoffs-in-Supercomputers-with-Multicore-Architectures)
 
 ## Potential Readings
 
