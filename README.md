@@ -83,6 +83,10 @@ model for performance portability on heterogeneous architectures](Stateful-Dataf
 * [Interferences between Communications and Computations in Distributed HPC Systems](Interferences-between-Communications-and-Computations-in-Distributed-HPC-Systems)
 * [Memory Bandwidth Contention: Communication vs Computation Tradeoffs in Supercomputers with Multicore Architectures](Memory-Bandwidth-Contention-Communication-vs-Computation-Tradeoffs-in-Supercomputers-with-Multicore-Architectures)
 
+### 13.09.2021 - 19.09.2021
+
+* [MVAPICH2-GPU: optimized GPU to GPU communication for InfiniBand clusters](MVAPICH2-GPU-optimized-GPU-to-GPU-communication-for-InfiniBand-clusters)
+
 ## Potential Readings
 
 * [Dynamic Graphs on GPUs](https://ieeexplore.ieee.org/document/9139818)
