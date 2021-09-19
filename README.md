@@ -88,7 +88,7 @@ model for performance portability on heterogeneous architectures](Stateful-Dataf
 ### 13.09.2021 - 19.09.2021
 
 * [MVAPICH2-GPU: optimized GPU to GPU communication for InfiniBand clusters](MVAPICH2-GPU-optimized-GPU-to-GPU-communication-for-InfiniBand-clusters)
-* [GGAS-Global-GPU-Address-Spaces-for-Efficient-Communication-in-Heterogeneous-Clusters](GGAS: Global GPU Address Spaces for Efficient Communication in Heterogeneous Clusters)
+* [GGAS: Global GPU Address Spaces for Efficient Communication in Heterogeneous Clusters](GGAS-Global-GPU-Address-Spaces-for-Efficient-Communication-in-Heterogeneous-Clusters)
 
 ## Potential Readings
 
