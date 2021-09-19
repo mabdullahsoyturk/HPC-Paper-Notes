@@ -28,7 +28,7 @@ model for performance portability on heterogeneous architectures](Stateful-Dataf
 25. [Productivity, Portability, Performance: Data-Centric Python](Productivity-Portability-Performance-Data-Centric-Python)
 26. [Interferences between Communications and Computations in Distributed HPC Systems](Interferences-between-Communications-and-Computations-in-Distributed-HPC-Systems)
 27. [MVAPICH2-GPU: optimized GPU to GPU communication for InfiniBand clusters](MVAPICH2-GPU-optimized-GPU-to-GPU-communication-for-InfiniBand-clusters)
-28. [GGAS-Global-GPU-Address-Spaces-for-Efficient-Communication-in-Heterogeneous-Clusters](GGAS: Global GPU Address Spaces for Efficient Communication in Heterogeneous Clusters)
+28. [GGAS: Global GPU Address Spaces for Efficient Communication in Heterogeneous Clusters](GGAS-Global-GPU-Address-Spaces-for-Efficient-Communication-in-Heterogeneous-Clusters)
 
 ## Two Papers A Week Goal (Starting from 28.06.2021)
 
