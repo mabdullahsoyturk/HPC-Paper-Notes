@@ -30,6 +30,7 @@ model for performance portability on heterogeneous architectures](Stateful-Dataf
 27. [MVAPICH2-GPU: optimized GPU to GPU communication for InfiniBand clusters](MVAPICH2-GPU-optimized-GPU-to-GPU-communication-for-InfiniBand-clusters)
 28. [GGAS: Global GPU Address Spaces for Efficient Communication in Heterogeneous Clusters](GGAS-Global-GPU-Address-Spaces-for-Efficient-Communication-in-Heterogeneous-Clusters)
 29. [GPUnet: Networking Abstractions for GPU Programs](GPUnet-Networking-Abstractions-for-GPU-Programs)
+30. [GPUrdma: GPU-side library for high performance networking from GPU kernels](GPUrdma-GPU-side-library-for-high-performance-networking-from-GPU-kernels)
 
 ## Two Papers A Week Goal (Starting from 28.06.2021)
 
