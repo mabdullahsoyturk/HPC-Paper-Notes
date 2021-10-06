@@ -49,17 +49,9 @@ model for performance portability on heterogeneous architectures](Stateful-Dataf
 * [Softshell: Dynamic Scheduling on GPUs](Softshell-Dynamic-Scheduling-on-GPUs)
 * [Gravel: Fine-Grain GPU-Initiated Network Messages](Gravel-Fine-Grain-GPU-Initiated-Network-Messages)
 
-### 19.07.2021 - 25.07.2021
+### 19.07.2021 - 08.08.2021
 
-Need to pass my notes from my tablet
-
-### 26.07.2021 - 01.07.2021
-
-Need to pass my notes from my tablet
-
-### 02.08.2021 - 08.08.2021
-
-Need to pass my notes from my tablet
+Unfortunately, my notes are on my tablet for this time period. I can't seem to find a time to pass them here (Translation: It's been a long time and I don't want to do it anymore :) ).
 
 ### 09.08.2021 - 15.08.2021
 
@@ -144,30 +136,27 @@ model for performance portability on heterogeneous architectures](Stateful-Dataf
 * [Legion: expressing locality and independence with logical regions](https://dl.acm.org/doi/10.5555/2388996.2389086)
 * [Charm++ A portable concurrent object oriented system based on C++](https://dl.acm.org/doi/pdf/10.1145/165854.165874)
 
-## Potential Readings
+## GPU-NIC Interaction
 
-* [Dynamic Graphs on GPUs](https://ieeexplore.ieee.org/document/9139818)
-* [Ouroboros: Virtualized Queues for Dynamic Memory Management on GPUs](Ouroboros-Virtualized-Queues-for-Dynamic-Memory-Management-on-GPUs)
-* [LaPerm: Locality Aware Scheduler for Dynamic Parallelism on GPUs](https://ieeexplore.ieee.org/document/7551424)
-* [Dynamic Task Parallelism with a GPU Work-Stealing Runtime System](Dynamic-Task-Parallelism-with-a-GPU-Work-Stealing)
+Some approaches for GPU-NIC interaction. Useful for my research. 
 
 ### Coprocessor Model
 
-Disallows GPUs to access NI. You write CPU code for communication before and after a GPU kernel.
+Disallows GPUs to access NIC. You write CPU code for communication before and after a GPU kernel.
 
 * [Efficient Inter-Node MPI Communication Using GPUDirect RDMA for InfiniBand Clusters with NVIDIA GPUs](https://ieeexplore.ieee.org/document/6687341) -> CUDA RDMA
 * [Optimized GPU to GPU Communication for InfiniBand Clusters](https://link.springer.com/article/10.1007/s00450-011-0171-3) -> CUDA-aware MPI
 
 ### Message-per-lane Model
 
-GPU threads independently access to NI. 
+GPU threads independently access to NIC. 
 
 * [GGAS: Global GPU Address Spaces for Efficient Communication in Heterogeneous Clusters](https://ieeexplore.ieee.org/document/6702638)
 * [Simplifying Multi-GPU Communication with NVSHMEM](http://on-demand.gputechconf.com/gtc/2016/presentation/s6378-nathan-luehr-simplyfing-multi-gpu-communication-nvshmem.pdf) -> Not a paper but good to read.
 
 ### Coalesced APIs
 
-WIs coordinate with their neighbors to access the NI
+Threads coordinate to access the NIC.
 
 * [GPUnet: Networking Abstractions for GPU Programs](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-kim.pdf)
 * [GPUrdma: GPU-Side Library for High Performance Networking from GPU Kernels](https://dl.acm.org/doi/10.1145/2931088.2931091)
