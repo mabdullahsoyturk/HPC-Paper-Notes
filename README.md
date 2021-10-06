@@ -94,11 +94,12 @@ model for performance portability on heterogeneous architectures](Stateful-Dataf
 ### 20.09.2021 - 26.09.2021
 
 * [GPUnet: Networking Abstractions for GPU Programs](GPUnet-Networking-Abstractions-for-GPU-Programs)
+* [GPUrdma: GPU-side library for high performance networking from GPU kernels](GPUrdma-GPU-side-library-for-high-performance-networking-from-GPU-kernels)
 
 ## Potential Readings
 
 * [Dynamic Graphs on GPUs](https://ieeexplore.ieee.org/document/9139818)
-* [Ouroboros: Virtualized Queues for Dynamic Memory Management on GPUs](Ouroboros:-Virtualized-Queues-for-Dynamic-Memory-Management-on-GPUs)
+* [Ouroboros: Virtualized Queues for Dynamic Memory Management on GPUs](Ouroboros-Virtualized-Queues-for-Dynamic-Memory-Management-on-GPUs)
 * [DynaSOAr: A CUDA Framework for Single-Method Multiple-Objects Applications](https://github.com/prg-titech/dynasoar)
 * [LaPerm: Locality Aware Scheduler for Dynamic Parallelism on GPUs](https://ieeexplore.ieee.org/document/7551424)
 * [Dynamic Task Parallelism with a GPU Work-Stealing Runtime System](Dynamic-Task-Parallelism-with-a-GPU-Work-Stealing)
