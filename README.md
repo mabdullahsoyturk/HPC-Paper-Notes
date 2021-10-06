@@ -1,53 +1,53 @@
 # List of Papers
 
-1. [Energy Efficient Architecture for Graph Analytics Accelerators](Energy-Efficient-Architecture-for-Graph-Analytics-Accelerators)
-2. [A Template Based Design Methodology for Graph Parallel Hardware Accelerators](A-Template-Based-Design-Methodology-for-Graph-Parallel-Hardware-Accelerators)
-3. [System Simulation with gem5 and SystemC](System-Simulation-with-gem5-and-SystemC)
-4. [GAIL: The Graph Algorithm Iron Law](The-Graph-Algorithm-Iron-Law)
-5. [Locality Exists in Graph Processing: Workload Characterization on an Ivy Bridge Serve](Locality-Exists-In-Graph-Processing)
-6. [Graphicionado A High Performance and Energy-Efficient Accelerator for Graph Analytics](Graphicionado-A-High-Performance-and-Energy-Efficient-Accelerator-for-Graph-Analytics)
-7. [Analysis and Optimization of the Memory Hierarchy for Graph Processing Workloads](Analysis-and-Optimization-of-the-Memory-Hierarchy-for-Graph-Processing-Workloads)
-8. [Alleviating Irregularity in Graph Analytics Acceleration: a Hardware/Software Design Approach](Alleviating-Irregularity-in-Graph-Analytics-Acceleration)
-9. [GNN Performance Optimization](GNN-Performance-Optimization)
-10. [Dissecting the Graphcore IPU Architecture](Dissecting-the-Graphcore-IPU-Architecture)
-11. [Using the Graphcore IPU for Traditional HPC Applications](Using-the-Graphcore-IPU-for-Traditional-HPC-Applications)
-12. [Roofline: An Insightful Visual Performance Model](Roofline-An-Insightful-Visual-Performance-Model)
-13. [CUDA New Features and Beyond](CUDA-New-Features-and-Beyond)
-14. [A Study of Persistent Threads Style GPU Programming for GPGPU Workloads](A-Study-of-Persistent-Threads-Style-GPU-Programming-for-GPGPU-Workloads)
-15. [BrainTorrent: A Peer to Peer Environment for Decentralized Federated Learning](BrainTorrent-A-Peer-to-Peer-Environment-for-Decentralized-Federated-Learning)
-16. [Whippletree: Task-based Scheduling of Dynamic Workloads on the GPU](./Whippletree:Task-based-Scheduling-of-Dynamic-Workloads-on-the-GPU)
-17. [Groute: Asynchronous Multi-GPU Programming Model with Applications to Large-scale Graph Processing](./Groute:Asynchronous-Multi-GPU-Programming-Model-with-Applications-to-Large-scale-Graph-Processing)
-18. [A Computational-Graph Partitioning Method for Training Memory-Constrained DNNs](A-Computational-Graph-Partitioning-Method-for-Training-Memory-Constrained-DNNs)
-19. [The Broker Queue: A Fast, Linearizable FIFO Queue for Fine-Granular Work Distribution on the GPU](The-Broker-Queue-A-Fast-Linearizable-FIFO-Queue-for-Fine-Granular-Work-Distribution-on-the-GPU)
-20. [Softshell: Dynamic Scheduling on GPUs](Softshell-Dynamic-Scheduling-on-GPUs)
-21. [Gravel: Fine-Grain GPU-Initiated Network Messages](Gravel-Fine-Grain-GPU-Initiated-Network-Messages)
-22. [SPIN:Seamless Operating System Integration of Peer to Peer DMA Between SSDs and GPUs](SPIN-Seamless-Operating-System-Integration-of-Peer-to-Peer-DMA-Between-SSDs-and-GPUs)
-23. [Automatic Graph Partitioning for Very Large-scale Deep Learning](Automatic-Graph-Partitioning-for-Very-Large-scale-Deep-Learning)
+1. [Energy Efficient Architecture for Graph Analytics Accelerators](papers/Energy-Efficient-Architecture-for-Graph-Analytics-Accelerators)
+2. [A Template Based Design Methodology for Graph Parallel Hardware Accelerators](papers/A-Template-Based-Design-Methodology-for-Graph-Parallel-Hardware-Accelerators)
+3. [System Simulation with gem5 and SystemC](papers/System-Simulation-with-gem5-and-SystemC)
+4. [GAIL: The Graph Algorithm Iron Law](papers/The-Graph-Algorithm-Iron-Law)
+5. [Locality Exists in Graph Processing: Workload Characterization on an Ivy Bridge Serve](papers/Locality-Exists-In-Graph-Processing)
+6. [Graphicionado A High Performance and Energy-Efficient Accelerator for Graph Analytics](papers/Graphicionado-A-High-Performance-and-Energy-Efficient-Accelerator-for-Graph-Analytics)
+7. [Analysis and Optimization of the Memory Hierarchy for Graph Processing Workloads](papers/Analysis-and-Optimization-of-the-Memory-Hierarchy-for-Graph-Processing-Workloads)
+8. [Alleviating Irregularity in Graph Analytics Acceleration: a Hardware/Software Design Approach](papers/Alleviating-Irregularity-in-Graph-Analytics-Acceleration)
+9. [GNN Performance Optimization](papers/GNN-Performance-Optimization)
+10. [Dissecting the Graphcore IPU Architecture](papers/Dissecting-the-Graphcore-IPU-Architecture)
+11. [Using the Graphcore IPU for Traditional HPC Applications](papers/Using-the-Graphcore-IPU-for-Traditional-HPC-Applications)
+12. [Roofline: An Insightful Visual Performance Model](papers/Roofline-An-Insightful-Visual-Performance-Model)
+13. [CUDA New Features and Beyond](papers/CUDA-New-Features-and-Beyond)
+14. [A Study of Persistent Threads Style GPU Programming for GPGPU Workloads](papers/A-Study-of-Persistent-Threads-Style-GPU-Programming-for-GPGPU-Workloads)
+15. [BrainTorrent: A Peer to Peer Environment for Decentralized Federated Learning](papers/BrainTorrent-A-Peer-to-Peer-Environment-for-Decentralized-Federated-Learning)
+16. [Whippletree: Task-based Scheduling of Dynamic Workloads on the GPU](papers/Whippletree:Task-based-Scheduling-of-Dynamic-Workloads-on-the-GPU)
+17. [Groute: Asynchronous Multi-GPU Programming Model with Applications to Large-scale Graph Processing](papers/Groute:Asynchronous-Multi-GPU-Programming-Model-with-Applications-to-Large-scale-Graph-Processing)
+18. [A Computational-Graph Partitioning Method for Training Memory-Constrained DNNs](papers/A-Computational-Graph-Partitioning-Method-for-Training-Memory-Constrained-DNNs)
+19. [The Broker Queue: A Fast, Linearizable FIFO Queue for Fine-Granular Work Distribution on the GPU](papers/The-Broker-Queue-A-Fast-Linearizable-FIFO-Queue-for-Fine-Granular-Work-Distribution-on-the-GPU)
+20. [Softshell: Dynamic Scheduling on GPUs](papers/Softshell-Dynamic-Scheduling-on-GPUs)
+21. [Gravel: Fine-Grain GPU-Initiated Network Messages](papers/Gravel-Fine-Grain-GPU-Initiated-Network-Messages)
+22. [SPIN:Seamless Operating System Integration of Peer to Peer DMA Between SSDs and GPUs](papers/SPIN-Seamless-Operating-System-Integration-of-Peer-to-Peer-DMA-Between-SSDs-and-GPUs)
+23. [Automatic Graph Partitioning for Very Large-scale Deep Learning](papers/Automatic-Graph-Partitioning-for-Very-Large-scale-Deep-Learning)
 24. [Stateful Dataflow Multigraphs: A data-centric
-model for performance portability on heterogeneous architectures](Stateful-Dataflow-Multigraphs-A-Data-Centric-Model-for-Performance-Portability-on-Heterogeneous-Architectures)
-25. [Productivity, Portability, Performance: Data-Centric Python](Productivity-Portability-Performance-Data-Centric-Python)
-26. [Interferences between Communications and Computations in Distributed HPC Systems](Interferences-between-Communications-and-Computations-in-Distributed-HPC-Systems)
-27. [MVAPICH2-GPU: optimized GPU to GPU communication for InfiniBand clusters](MVAPICH2-GPU-optimized-GPU-to-GPU-communication-for-InfiniBand-clusters)
-28. [GGAS: Global GPU Address Spaces for Efficient Communication in Heterogeneous Clusters](GGAS-Global-GPU-Address-Spaces-for-Efficient-Communication-in-Heterogeneous-Clusters)
-29. [GPUnet: Networking Abstractions for GPU Programs](GPUnet-Networking-Abstractions-for-GPU-Programs)
-30. [GPUrdma: GPU-side library for high performance networking from GPU kernels](GPUrdma-GPU-side-library-for-high-performance-networking-from-GPU-kernels)
+model for performance portability on heterogeneous architectures](papers/Stateful-Dataflow-Multigraphs-A-Data-Centric-Model-for-Performance-Portability-on-Heterogeneous-Architectures)
+25. [Productivity, Portability, Performance: Data-Centric Python](papers/Productivity-Portability-Performance-Data-Centric-Python)
+26. [Interferences between Communications and Computations in Distributed HPC Systems](papers/Interferences-between-Communications-and-Computations-in-Distributed-HPC-Systems)
+27. [MVAPICH2-GPU: optimized GPU to GPU communication for InfiniBand clusters](papers/MVAPICH2-GPU-optimized-GPU-to-GPU-communication-for-InfiniBand-clusters)
+28. [GGAS: Global GPU Address Spaces for Efficient Communication in Heterogeneous Clusters](papers/GGAS-Global-GPU-Address-Spaces-for-Efficient-Communication-in-Heterogeneous-Clusters)
+29. [GPUnet: Networking Abstractions for GPU Programs](papers/GPUnet-Networking-Abstractions-for-GPU-Programs)
+30. [GPUrdma: GPU-side library for high performance networking from GPU kernels](papers/GPUrdma-GPU-side-library-for-high-performance-networking-from-GPU-kernels)
 
 ## Two Papers A Week Goal (Starting from 28.06.2021)
 
 ### 28.06.2021 - 04.07.2021
 
-* [Whippletree: Task-based Scheduling of Dynamic Workloads on the GPU](Whippletree-Task-based-Scheduling-of-Dynamic-Workloads-on-the-GPU)
-* [Groute: Asynchronous Multi-GPU Programming Model with Applications to Large-scale Graph Processing](Groute-Asynchronous-Multi-GPU-Programming-Model-with-Applications-to-Large-scale-Graph-Processing)
+* [Whippletree: Task-based Scheduling of Dynamic Workloads on the GPU](papers/Whippletree-Task-based-Scheduling-of-Dynamic-Workloads-on-the-GPU)
+* [Groute: Asynchronous Multi-GPU Programming Model with Applications to Large-scale Graph Processing](papers/Groute-Asynchronous-Multi-GPU-Programming-Model-with-Applications-to-Large-scale-Graph-Processing)
 
 ### 05.07.2021 - 11.07.2021
 
-* [A Computational-Graph Partitioning Method for Training Memory-Constrained DNNs](A-Computational-Graph-Partitioning-Method-for-Training-Memory-Constrained-DNNs)
-* [The Broker Queue: A Fast, Linearizable FIFO Queue for Fine-Granular Work Distribution on the GPU](The-Broker-Queue-A-Fast-Linearizable-FIFO-Queue-for-Fine-Granular-Work-Distribution-on-the-GPU)
+* [A Computational-Graph Partitioning Method for Training Memory-Constrained DNNs](papers/A-Computational-Graph-Partitioning-Method-for-Training-Memory-Constrained-DNNs)
+* [The Broker Queue: A Fast, Linearizable FIFO Queue for Fine-Granular Work Distribution on the GPU](papers/The-Broker-Queue-A-Fast-Linearizable-FIFO-Queue-for-Fine-Granular-Work-Distribution-on-the-GPU)
 
 ### 12.07.2021 - 18.07.2021
 
-* [Softshell: Dynamic Scheduling on GPUs](Softshell-Dynamic-Scheduling-on-GPUs)
-* [Gravel: Fine-Grain GPU-Initiated Network Messages](Gravel-Fine-Grain-GPU-Initiated-Network-Messages)
+* [Softshell: Dynamic Scheduling on GPUs](papers/Softshell-Dynamic-Scheduling-on-GPUs)
+* [Gravel: Fine-Grain GPU-Initiated Network Messages](papers/Gravel-Fine-Grain-GPU-Initiated-Network-Messages)
 
 ### 19.07.2021 - 08.08.2021
 
@@ -55,19 +55,19 @@ Unfortunately, my notes are on my tablet for this time period. I can't seem to f
 
 ### 09.08.2021 - 15.08.2021
 
-* [SPIN:Seamless Operating System Integration of Peer to Peer DMA Between SSDs and GPUs](SPIN-Seamless-Operating-System-Integration-of-Peer-to-Peer-DMA-Between-SSDs-and-GPUs)
-* [GPU-to-CPU Callbacks](https://link.springer.com/content/pdf/10.1007%2F978-3-642-21878-1_45.pdf)
+* [SPIN:Seamless Operating System Integration of Peer to Peer DMA Between SSDs and GPUs](papers/SPIN-Seamless-Operating-System-Integration-of-Peer-to-Peer-DMA-Between-SSDs-and-GPUs)
+* [GPU-to-CPU Callbacks](papers/https://link.springer.com/content/pdf/10.1007%2F978-3-642-21878-1_45.pdf)
 
 ### 16.08.2021 - 22.08.2021
 
 * [PyTorch: An Imperative Style, High-Performance Deep Learning Library](https://arxiv.org/pdf/1912.01703.pdf) -> Zero technical depth. Please give my time back.
-* [Automatic Graph Partitioning for Very Large-scale Deep Learning](Automatic-Graph-Partitioning-for-Very-Large-scale-Deep-Learning)
+* [Automatic Graph Partitioning for Very Large-scale Deep Learning](papers/Automatic-Graph-Partitioning-for-Very-Large-scale-Deep-Learning)
 
 ### 23.08.2021 - 29.08.2021
 
 * [Stateful Dataflow Multigraphs: A data-centric
-model for performance portability on heterogeneous architectures](Stateful-Dataflow-Multigraphs-A-Data-Centric-Model-for-Performance-Portability-on-Heterogeneous-Architectures)
-* [Productivity, Portability, Performance: Data-Centric Python](Productivity-Portability-Performance-Data-Centric-Python)
+model for performance portability on heterogeneous architectures](papers/Stateful-Dataflow-Multigraphs-A-Data-Centric-Model-for-Performance-Portability-on-Heterogeneous-Architectures)
+* [Productivity, Portability, Performance: Data-Centric Python](papers/Productivity-Portability-Performance-Data-Centric-Python)
 
 ### 30.08.2021 - 05.09.2021
 
@@ -76,18 +76,18 @@ model for performance portability on heterogeneous architectures](Stateful-Dataf
 
 ### 06.09.2021 - 12.09.2021
 
-* [Interferences between Communications and Computations in Distributed HPC Systems](Interferences-between-Communications-and-Computations-in-Distributed-HPC-Systems)
-* [Memory Bandwidth Contention: Communication vs Computation Tradeoffs in Supercomputers with Multicore Architectures](Memory-Bandwidth-Contention-Communication-vs-Computation-Tradeoffs-in-Supercomputers-with-Multicore-Architectures)
+* [Interferences between Communications and Computations in Distributed HPC Systems](papers/Interferences-between-Communications-and-Computations-in-Distributed-HPC-Systems)
+* [Memory Bandwidth Contention: Communication vs Computation Tradeoffs in Supercomputers with Multicore Architectures](papers/Memory-Bandwidth-Contention-Communication-vs-Computation-Tradeoffs-in-Supercomputers-with-Multicore-Architectures)
 
 ### 13.09.2021 - 19.09.2021
 
-* [MVAPICH2-GPU: optimized GPU to GPU communication for InfiniBand clusters](MVAPICH2-GPU-optimized-GPU-to-GPU-communication-for-InfiniBand-clusters)
-* [GGAS: Global GPU Address Spaces for Efficient Communication in Heterogeneous Clusters](GGAS-Global-GPU-Address-Spaces-for-Efficient-Communication-in-Heterogeneous-Clusters)
+* [MVAPICH2-GPU: optimized GPU to GPU communication for InfiniBand clusters](papers/MVAPICH2-GPU-optimized-GPU-to-GPU-communication-for-InfiniBand-clusters)
+* [GGAS: Global GPU Address Spaces for Efficient Communication in Heterogeneous Clusters](papers/GGAS-Global-GPU-Address-Spaces-for-Efficient-Communication-in-Heterogeneous-Clusters)
 
 ### 20.09.2021 - 26.09.2021
 
-* [GPUnet: Networking Abstractions for GPU Programs](GPUnet-Networking-Abstractions-for-GPU-Programs)
-* [GPUrdma: GPU-side library for high performance networking from GPU kernels](GPUrdma-GPU-side-library-for-high-performance-networking-from-GPU-kernels)
+* [GPUnet: Networking Abstractions for GPU Programs](papers/GPUnet-Networking-Abstractions-for-GPU-Programs)
+* [GPUrdma: GPU-side library for high performance networking from GPU kernels](papers/GPUrdma-GPU-side-library-for-high-performance-networking-from-GPU-kernels)
 
 ## Essential Reading List in Parallel Computing (Suggestions of my advisor (Didem Unat))
 
