@@ -31,6 +31,7 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 28. [GGAS: Global GPU Address Spaces for Efficient Communication in Heterogeneous Clusters](papers/GGAS-Global-GPU-Address-Spaces-for-Efficient-Communication-in-Heterogeneous-Clusters)
 29. [GPUnet: Networking Abstractions for GPU Programs](papers/GPUnet-Networking-Abstractions-for-GPU-Programs)
 30. [GPUrdma: GPU-side library for high performance networking from GPU kernels](papers/GPUrdma-GPU-side-library-for-high-performance-networking-from-GPU-kernels)
+31. [Trends in Data Locality Abstractions for HPC Systems](papers/Trends-in-Data-Locality-Abstractions-for-HPC-Systems)
 
 ## Two Papers A Week Goal (Starting from 28.06.2021)
 
@@ -88,6 +89,15 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 
 * [GPUnet: Networking Abstractions for GPU Programs](papers/GPUnet-Networking-Abstractions-for-GPU-Programs)
 * [GPUrdma: GPU-side library for high performance networking from GPU kernels](papers/GPUrdma-GPU-side-library-for-high-performance-networking-from-GPU-kernels)
+
+### 27.09.2021 - 03.10.2021
+
+* [Trends in Data Locality Abstractions for HPC Systems](papers/Trends-in-Data-Locality-Abstractions-for-HPC-Systems)
+* [Moores Law is ending](https://ieeexplore.ieee.org/document/7368023)
+
+### 04.10.2021 - 10.10.2021
+
+* [Chimera: Efficiently Training Large-Scale Neural Networks with Bidirectional Pipelines](papers/Chimera-Efficiently-Training-Large-Scale-Neural-Networks-with-Bidirectional-Pipelines)
 
 ## Essential Reading List in Parallel Computing (Suggestions of my advisor (Didem Unat))
 
