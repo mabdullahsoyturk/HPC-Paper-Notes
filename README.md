@@ -99,7 +99,7 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 ### 04.10.2021 - 10.10.2021
 
 * [Chimera: Efficiently Training Large-Scale Neural Networks with Bidirectional Pipelines](papers/Chimera-Efficiently-Training-Large-Scale-Neural-Networks-with-Bidirectional-Pipelines)
-* [Deep Residual Learning for Image Recognition](Deep-Residual-Learning-for-Image-Recognition)
+* [Deep Residual Learning for Image Recognition](papers/Deep-Residual-Learning-for-Image-Recognition)
 
 ## Essential Reading List in Parallel Computing (Suggestions of my advisor (Didem Unat))
 
