@@ -32,6 +32,7 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 29. [GPUnet: Networking Abstractions for GPU Programs](papers/GPUnet-Networking-Abstractions-for-GPU-Programs)
 30. [GPUrdma: GPU-side library for high performance networking from GPU kernels](papers/GPUrdma-GPU-side-library-for-high-performance-networking-from-GPU-kernels)
 31. [Trends in Data Locality Abstractions for HPC Systems](papers/Trends-in-Data-Locality-Abstractions-for-HPC-Systems)
+32. [Chimera: Efficiently Training Large-Scale Neural Networks with Bidirectional Pipelines](papers/Chimera-Efficiently-Training-Large-Scale-Neural-Networks-with-Bidirectional-Pipelines)
 
 ## Two Papers A Week Goal (Starting from 28.06.2021)
 
