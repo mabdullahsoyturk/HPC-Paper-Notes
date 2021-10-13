@@ -31,5 +31,7 @@ Conclusion:
 ### Terminology
 
 LU = Lower x Upper
+
 QR = Orthogonal Matrix (Q) x Upper Triangular Matrix (R)
+
 Cholesky = Lower Triangular x Its conjugate transpose
