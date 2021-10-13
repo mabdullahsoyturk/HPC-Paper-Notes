@@ -33,6 +33,7 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 30. [GPUrdma: GPU-side library for high performance networking from GPU kernels](papers/GPUrdma-GPU-side-library-for-high-performance-networking-from-GPU-kernels)
 31. [Trends in Data Locality Abstractions for HPC Systems](papers/Trends-in-Data-Locality-Abstractions-for-HPC-Systems)
 32. [Chimera: Efficiently Training Large-Scale Neural Networks with Bidirectional Pipelines](papers/Chimera-Efficiently-Training-Large-Scale-Neural-Networks-with-Bidirectional-Pipelines)
+33. [Benchmarking GPUs to Tune Dense Linear Algebra](papers/Benchmarking-GPUs-to-Tune-Dense-Linear-Algebra)
 
 ## Two Papers A Week Goal (Starting from 28.06.2021)
 
@@ -100,6 +101,10 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 
 * [Chimera: Efficiently Training Large-Scale Neural Networks with Bidirectional Pipelines](papers/Chimera-Efficiently-Training-Large-Scale-Neural-Networks-with-Bidirectional-Pipelines)
 * [Deep Residual Learning for Image Recognition](papers/Deep-Residual-Learning-for-Image-Recognition)
+
+### 11.10.2021 - 17.10.2021
+
+* [Benchmarking GPUs to Tune Dense Linear Algebra](papers/Benchmarking-GPUs-to-Tune-Dense-Linear-Algebra)
 
 ## Essential Reading List in Parallel Computing (Suggestions of my advisor (Didem Unat))
 
