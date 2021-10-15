@@ -1,6 +1,7 @@
-A-Template-Based-Design-Methodology-for-Graph-Parallel-Hardware-Accelerators/paper.pdf
-Energy-Efficient-Architecture-for-Graph-Analytics-Accelerators/paper.pdf
-System-Simulation-with-gem5-and-SystemC/paper.pdf
-The-Graph-Algorithm-Iron-Law/gail.pdf
-Locality-Exists-In-Graph-Processing/locality.pdf
-Productivity-Portability-Performance-Data-Centric-Python/2107.00555.pdf
+papers/A-Template-Based-Design-Methodology-for-Graph-Parallel-Hardware-Accelerators/paper.pdf
+papers/Energy-Efficient-Architecture-for-Graph-Analytics-Accelerators/paper.pdf
+papers/System-Simulation-with-gem5-and-SystemC/paper.pdf
+papers/The-Graph-Algorithm-Iron-Law/gail.pdf
+papers/Locality-Exists-In-Graph-Processing/locality.pdf
+papers/Productivity-Portability-Performance-Data-Centric-Python/2107.00555.pdf
+papers/iPUG-Accelerating-Breadth-First-Graph-Traversals-using-Manycore-Graphcore-IPUs/iPUG-BFS.pdf

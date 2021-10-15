@@ -34,6 +34,7 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 31. [Trends in Data Locality Abstractions for HPC Systems](papers/Trends-in-Data-Locality-Abstractions-for-HPC-Systems)
 32. [Chimera: Efficiently Training Large-Scale Neural Networks with Bidirectional Pipelines](papers/Chimera-Efficiently-Training-Large-Scale-Neural-Networks-with-Bidirectional-Pipelines)
 33. [Benchmarking GPUs to Tune Dense Linear Algebra](papers/Benchmarking-GPUs-to-Tune-Dense-Linear-Algebra)
+34. [Brook for GPUs: stream computing on graphics hardware](papers/Brook-for-GPUs-stream-computing-on-graphics-hardware)
 
 ## Two Papers A Week Goal (Starting from 28.06.2021)
 
@@ -105,7 +106,11 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 ### 11.10.2021 - 17.10.2021
 
 * [Benchmarking GPUs to Tune Dense Linear Algebra](papers/Benchmarking-GPUs-to-Tune-Dense-Linear-Algebra)
-* [Brook for GPUs: stream computing on graphics hardware](https://dl.acm.org/doi/10.1145/1015706.1015800)
+* [Brook for GPUs: stream computing on graphics hardware](papers/Brook-for-GPUs-stream-computing-on-graphics-hardware)
+
+### 18.10.2021 - 24.10.2021
+
+* [iPUG: Accelerating Breadth-First Graph Traversals using Manycore Graphcore IPUs](papers/iPUG-Accelerating-Breadth-First-Graph-Traversals-using-Manycore-Graphcore-IPUs)
 
 ## Essential Reading List in Parallel Computing (Suggestions of my advisor (Didem Unat))
 
