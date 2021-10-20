@@ -23,6 +23,9 @@ By introducing a new OpenSBI extension.
 ### Some Terminology
 
 OpenSBI = Open Source Supervisor Binary Interface
+
 CTI Instructions = Cycle, Time and Retired Instructions
+
 PMU = Performance Monitoring Unit
+
 HPM = High Performance Monitor
