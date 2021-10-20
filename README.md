@@ -36,7 +36,7 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 33. [Benchmarking GPUs to Tune Dense Linear Algebra](papers/Benchmarking-GPUs-to-Tune-Dense-Linear-Algebra)
 34. [Brook for GPUs: stream computing on graphics hardware](papers/Brook-for-GPUs-stream-computing-on-graphics-hardware)
 35. [IPUG: Accelerating Breadth-First Graph Traversals using Manycore Graphcore IPUs](papers/IPUG-Accelerating-Breadth-First-Graph-Traversals-using-Manycore-Graphcore-IPUs)
-36. * [Supporting RISC-V Performance Counters through Performance analysis tools for Linux](papers/Supporting-RISC-V-Performance-Counters-through-Performance-analysis-tools-for-Linux)
+36. [Supporting RISC-V Performance Counters through Performance analysis tools for Linux](papers/Supporting-RISC-V-Performance-Counters-through-Performance-analysis-tools-for-Linux)
 
 ## Two Papers A Week Goal (Starting from 28.06.2021)
 
