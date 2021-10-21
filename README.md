@@ -37,6 +37,7 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 34. [Brook for GPUs: stream computing on graphics hardware](papers/Brook-for-GPUs-stream-computing-on-graphics-hardware)
 35. [IPUG: Accelerating Breadth-First Graph Traversals using Manycore Graphcore IPUs](papers/IPUG-Accelerating-Breadth-First-Graph-Traversals-using-Manycore-Graphcore-IPUs)
 36. [Supporting RISC-V Performance Counters through Performance analysis tools for Linux](papers/Supporting-RISC-V-Performance-Counters-through-Performance-analysis-tools-for-Linux)
+37. [Merrimac: Supercomputing with Streams](papers/Merrimac-Supercomputing-with-Streams)
 
 ## Two Papers A Week Goal (Starting from 28.06.2021)
 
@@ -114,6 +115,7 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 
 * [IPUG: Accelerating Breadth-First Graph Traversals using Manycore Graphcore IPUs](papers/IPUG-Accelerating-Breadth-First-Graph-Traversals-using-Manycore-Graphcore-IPUs)
 * [Supporting RISC-V Performance Counters through Performance analysis tools for Linux](papers/Supporting-RISC-V-Performance-Counters-through-Performance-analysis-tools-for-Linux)
+* [Merrimac: Supercomputing with Streams](papers/Merrimac-Supercomputing-with-Streams)
 
 ## Essential Reading List in Parallel Computing (Suggestions of my advisor (Didem Unat))
 
