@@ -38,6 +38,7 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 35. [IPUG: Accelerating Breadth-First Graph Traversals using Manycore Graphcore IPUs](papers/IPUG-Accelerating-Breadth-First-Graph-Traversals-using-Manycore-Graphcore-IPUs)
 36. [Supporting RISC-V Performance Counters through Performance analysis tools for Linux](papers/Supporting-RISC-V-Performance-Counters-through-Performance-analysis-tools-for-Linux)
 37. [Merrimac: Supercomputing with Streams](papers/Merrimac-Supercomputing-with-Streams)
+38. [Peta-scale Phase-Field Simulation for Dendritic Solidification on the TSUBAME 2.0 Supercomputer](papers/Peta-scale-Phase-Field-Simulation-for-Dendritic-Solidification-on-the-TSUBAME-2-Supercomputer)
 
 ## Two Papers A Week Goal (Starting from 28.06.2021)
 
@@ -115,7 +116,11 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 
 * [IPUG: Accelerating Breadth-First Graph Traversals using Manycore Graphcore IPUs](papers/IPUG-Accelerating-Breadth-First-Graph-Traversals-using-Manycore-Graphcore-IPUs)
 * [Supporting RISC-V Performance Counters through Performance analysis tools for Linux](papers/Supporting-RISC-V-Performance-Counters-through-Performance-analysis-tools-for-Linux)
-* [Merrimac: Supercomputing with Streams](papers/Merrimac-Supercomputing-with-Streams)
+
+### 25.10.2021 - 31.10.2021
+
+* [Merrimac: Supercomputing with Streams](papers/Merrimac-Supercomputing-with-Streams) 
+* [Peta-scale Phase-Field Simulation for Dendritic Solidification on the TSUBAME 2.0 Supercomputer](papers/Peta-scale-Phase-Field-Simulation-for-Dendritic-Solidification-on-the-TSUBAME-2-Supercomputer)
 
 ## Essential Reading List in Parallel Computing (Suggestions of my advisor (Didem Unat))
 
