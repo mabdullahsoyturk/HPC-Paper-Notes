@@ -122,6 +122,11 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 * [Merrimac: Supercomputing with Streams](papers/Merrimac-Supercomputing-with-Streams) 
 * [Peta-scale Phase-Field Simulation for Dendritic Solidification on the TSUBAME 2.0 Supercomputer](papers/Peta-scale-Phase-Field-Simulation-for-Dendritic-Solidification-on-the-TSUBAME-2-Supercomputer)
 
+### 01.11.2021 - 07.11.2021
+
+* [Toward a Scalable and Distributed Infrastructure for Deep Learning Applications](https://arxiv.org/abs/2010.03012)
+* [A Data-centric Optimization Framework for Machine Learning](https://arxiv.org/pdf/2110.10802.pdf)
+
 ## Essential Reading List in Parallel Computing (Suggestions of my advisor (Didem Unat))
 
 ### Trends
