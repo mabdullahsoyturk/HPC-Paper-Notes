@@ -174,6 +174,11 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 * [Legion: expressing locality and independence with logical regions](https://dl.acm.org/doi/10.5555/2388996.2389086)
 * [Charm++ A portable concurrent object oriented system based on C++](https://dl.acm.org/doi/pdf/10.1145/165854.165874)
 
+## Potential Readings
+
+* [A View of the Parallel Computing Landscape](https://dl.acm.org/doi/pdf/10.1145/1562764.1562783)
+* [YOLOv4: Optimal Speed and Accuracy of Object Detection](https://arxiv.org/pdf/2004.10934.pdf)
+
 ## GPU-NIC Interaction
 
 Some approaches for GPU-NIC interaction. Useful for my research. 
