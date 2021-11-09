@@ -127,6 +127,11 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 * [Toward a Scalable and Distributed Infrastructure for Deep Learning Applications](https://arxiv.org/abs/2010.03012)
 * [A Data-centric Optimization Framework for Machine Learning](https://arxiv.org/pdf/2110.10802.pdf)
 
+### 08.11.2021 - 14.11.2021
+
+* [A-RISC-V-Simulator-and-Benchmark-Suite-for-Designing-and-Evaluating-Vector-Architectures](papers/A-RISC-V-Simulator-and-Benchmark-Suite-for-Designing-and-Evaluating-Vector-Architectures)
+* [PyTorch Distributed Experiences on Accelerating Data Parallel Training](papers/PyTorch-Distributed-Experiences-on-Accelerating-Data-Parallel-Training)
+
 ## Essential Reading List in Parallel Computing (Suggestions of my advisor (Didem Unat))
 
 ### Trends
