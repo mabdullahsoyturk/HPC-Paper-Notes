@@ -39,6 +39,8 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 36. [Supporting RISC-V Performance Counters through Performance analysis tools for Linux](papers/Supporting-RISC-V-Performance-Counters-through-Performance-analysis-tools-for-Linux)
 37. [Merrimac: Supercomputing with Streams](papers/Merrimac-Supercomputing-with-Streams)
 38. [Peta-scale Phase-Field Simulation for Dendritic Solidification on the TSUBAME 2.0 Supercomputer](papers/Peta-scale-Phase-Field-Simulation-for-Dendritic-Solidification-on-the-TSUBAME-2-Supercomputer)
+39. [A-RISC-V-Simulator-and-Benchmark-Suite-for-Designing-and-Evaluating-Vector-Architectures](papers/A-RISC-V-Simulator-and-Benchmark-Suite-for-Designing-and-Evaluating-Vector-Architectures)
+40. [PyTorch Distributed Experiences on Accelerating Data Parallel Training](papers/PyTorch-Distributed-Experiences-on-Accelerating-Data-Parallel-Training)
 
 ## Two Papers A Week Goal (Starting from 28.06.2021)
 
