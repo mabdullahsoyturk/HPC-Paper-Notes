@@ -41,6 +41,8 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 38. [Peta-scale Phase-Field Simulation for Dendritic Solidification on the TSUBAME 2.0 Supercomputer](papers/Peta-scale-Phase-Field-Simulation-for-Dendritic-Solidification-on-the-TSUBAME-2-Supercomputer)
 39. [A-RISC-V-Simulator-and-Benchmark-Suite-for-Designing-and-Evaluating-Vector-Architectures](papers/A-RISC-V-Simulator-and-Benchmark-Suite-for-Designing-and-Evaluating-Vector-Architectures)
 40. [PyTorch Distributed Experiences on Accelerating Data Parallel Training](papers/PyTorch-Distributed-Experiences-on-Accelerating-Data-Parallel-Training)
+41. [An Oracle for Guiding Large-Scale Model/Hybrid Parallel Training of Convolutional Neural Networks](papers/An-Oracle-for-Guiding-Large-Scale-Model-Hybrid-Parallel-Training-of-Convolutional-Neural-Networks)
+
 
 ## Two Papers A Week Goal (Starting from 28.06.2021)
 
