@@ -131,8 +131,11 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 
 ### 08.11.2021 - 14.11.2021
 
-* [A-RISC-V-Simulator-and-Benchmark-Suite-for-Designing-and-Evaluating-Vector-Architectures](papers/A-RISC-V-Simulator-and-Benchmark-Suite-for-Designing-and-Evaluating-Vector-Architectures)
+* [A RISC-V Simulator and Benchmark Suite for Designing and Evaluating Vector Architectures](papers/A-RISC-V-Simulator-and-Benchmark-Suite-for-Designing-and-Evaluating-Vector-Architectures)
 * [PyTorch Distributed Experiences on Accelerating Data Parallel Training](papers/PyTorch-Distributed-Experiences-on-Accelerating-Data-Parallel-Training)
+
+### 15.11.2021 - 21.11.2021
+* [An Oracle for Guiding Large-Scale Model/Hybrid Parallel Training of Convolutional Neural Networks](papers/An-Oracle-for-Guiding-Large-Scale-Model-Hybrid-Parallel-Training-of-Convolutional-Neural-Networks)
 
 ## Essential Reading List in Parallel Computing (Suggestions of my advisor (Didem Unat))
 
