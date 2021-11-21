@@ -138,6 +138,7 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 
 ### 15.11.2021 - 21.11.2021
 * [An Oracle for Guiding Large-Scale Model/Hybrid Parallel Training of Convolutional Neural Networks](papers/An-Oracle-for-Guiding-Large-Scale-Model-Hybrid-Parallel-Training-of-Convolutional-Neural-Networks)
+* [ZeRO Memory Optimizations Toward Training Trillion Parameter Models](papers/ZeRO-Memory-Optimizations-Toward-Training-Trillion-Parameter-Models)
 
 ## Essential Reading List in Parallel Computing (Suggestions of my advisor (Didem Unat))
 
