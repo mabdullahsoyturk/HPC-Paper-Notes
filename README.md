@@ -42,6 +42,7 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 39. [A-RISC-V-Simulator-and-Benchmark-Suite-for-Designing-and-Evaluating-Vector-Architectures](papers/A-RISC-V-Simulator-and-Benchmark-Suite-for-Designing-and-Evaluating-Vector-Architectures)
 40. [PyTorch Distributed Experiences on Accelerating Data Parallel Training](papers/PyTorch-Distributed-Experiences-on-Accelerating-Data-Parallel-Training)
 41. [An Oracle for Guiding Large-Scale Model/Hybrid Parallel Training of Convolutional Neural Networks](papers/An-Oracle-for-Guiding-Large-Scale-Model-Hybrid-Parallel-Training-of-Convolutional-Neural-Networks)
+42. [ZeRO Memory Optimizations Toward Training Trillion Parameter Models](papers/ZeRO-Memory-Optimizations-Toward-Training-Trillion-Parameter-Models)
 
 
 ## Two Papers A Week Goal (Starting from 28.06.2021)
