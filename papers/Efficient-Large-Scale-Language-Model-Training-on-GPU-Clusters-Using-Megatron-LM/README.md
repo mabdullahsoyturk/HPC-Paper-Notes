@@ -9,7 +9,7 @@ A way to combine various optimizations to train very large models.
 Large models give better accuracy but they don't fit into the memory of a GPU. There should be a scalable way to train these large models.
 
 ## How
-
+They analyze the advantages and disadvantages of various parallelism types and combine them according to the results. They also propose a new scheduler based on PipieDream-Flush scheduler.
 
 ## Notes
 
