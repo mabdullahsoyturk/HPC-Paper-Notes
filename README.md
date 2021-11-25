@@ -43,7 +43,7 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 40. [PyTorch Distributed Experiences on Accelerating Data Parallel Training](papers/PyTorch-Distributed-Experiences-on-Accelerating-Data-Parallel-Training)
 41. [An Oracle for Guiding Large-Scale Model/Hybrid Parallel Training of Convolutional Neural Networks](papers/An-Oracle-for-Guiding-Large-Scale-Model-Hybrid-Parallel-Training-of-Convolutional-Neural-Networks)
 42. [ZeRO Memory Optimizations Toward Training Trillion Parameter Models](papers/ZeRO-Memory-Optimizations-Toward-Training-Trillion-Parameter-Models)
-
+43. * [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](papers/Efficient-Large-Scale-Language-Model-Training-on-GPU-Clusters-Using-Megatron-LM)
 
 ## Two Papers A Week Goal (Starting from 28.06.2021)
 
@@ -143,7 +143,7 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 
 ### 22.11.2021 - 28.11.2021
 * [ZeRO-Infinity: Breaking the GPU Memory Wall for Extreme Scale Deep Learning](https://arxiv.org/pdf/2104.07857.pdf)
-* [Efficient-Large-Scale-Language-Model-Training-on-GPU-Clusters-Using-Megatron-LM](https://arxiv.org/abs/2104.04473)
+* [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](papers/Efficient-Large-Scale-Language-Model-Training-on-GPU-Clusters-Using-Megatron-LM)
 
 ## Essential Reading List in Parallel Computing (Suggestions of my advisor (Didem Unat))
 
