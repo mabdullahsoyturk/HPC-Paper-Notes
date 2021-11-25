@@ -141,6 +141,10 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 * [An Oracle for Guiding Large-Scale Model/Hybrid Parallel Training of Convolutional Neural Networks](papers/An-Oracle-for-Guiding-Large-Scale-Model-Hybrid-Parallel-Training-of-Convolutional-Neural-Networks)
 * [ZeRO Memory Optimizations Toward Training Trillion Parameter Models](papers/ZeRO-Memory-Optimizations-Toward-Training-Trillion-Parameter-Models)
 
+### 22.11.2021 - 28.11.2021
+* [ZeRO-Infinity: Breaking the GPU Memory Wall for Extreme Scale Deep Learning](https://arxiv.org/pdf/2104.07857.pdf)
+* [Efficient-Large-Scale-Language-Model-Training-on-GPU-Clusters-Using-Megatron-LM](https://arxiv.org/abs/2104.04473)
+
 ## Essential Reading List in Parallel Computing (Suggestions of my advisor (Didem Unat))
 
 ### Trends
