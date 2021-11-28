@@ -145,6 +145,9 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 * [ZeRO-Infinity: Breaking the GPU Memory Wall for Extreme Scale Deep Learning](https://arxiv.org/pdf/2104.07857.pdf)
 * [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](papers/Efficient-Large-Scale-Language-Model-Training-on-GPU-Clusters-Using-Megatron-LM)
 
+### 29.11.2021 - 05.12.2021
+* Unpublished paper (will update if it's accepted)
+
 ## Essential Reading List in Parallel Computing (Suggestions of my advisor (Didem Unat))
 
 ### Trends
