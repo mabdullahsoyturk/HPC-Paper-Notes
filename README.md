@@ -16,7 +16,7 @@
 14. [A Study of Persistent Threads Style GPU Programming for GPGPU Workloads](papers/A-Study-of-Persistent-Threads-Style-GPU-Programming-for-GPGPU-Workloads)
 15. [BrainTorrent: A Peer to Peer Environment for Decentralized Federated Learning](papers/BrainTorrent-A-Peer-to-Peer-Environment-for-Decentralized-Federated-Learning)
 16. [Whippletree: Task-based Scheduling of Dynamic Workloads on the GPU](papers/Whippletree:Task-based-Scheduling-of-Dynamic-Workloads-on-the-GPU)
-17. [Groute: Asynchronous Multi-GPU Programming Model with Applications to Large-scale Graph Processing](papers/Groute:Asynchronous-Multi-GPU-Programming-Model-with-Applications-to-Large-scale-Graph-Processing)
+17. [Groute: Asynchronous Multi-GPU Programming Model with Applications to Large-scale Graph Processing](papers/Groute-Asynchronous-Multi-GPU-Programming-Model-with-Applications-to-Large-scale-Graph-Processing)
 18. [A Computational-Graph Partitioning Method for Training Memory-Constrained DNNs](papers/A-Computational-Graph-Partitioning-Method-for-Training-Memory-Constrained-DNNs)
 19. [The Broker Queue: A Fast, Linearizable FIFO Queue for Fine-Granular Work Distribution on the GPU](papers/The-Broker-Queue-A-Fast-Linearizable-FIFO-Queue-for-Fine-Granular-Work-Distribution-on-the-GPU)
 20. [Softshell: Dynamic Scheduling on GPUs](papers/Softshell-Dynamic-Scheduling-on-GPUs)
