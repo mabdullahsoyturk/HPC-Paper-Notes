@@ -44,6 +44,7 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 41. [An Oracle for Guiding Large-Scale Model/Hybrid Parallel Training of Convolutional Neural Networks](papers/An-Oracle-for-Guiding-Large-Scale-Model-Hybrid-Parallel-Training-of-Convolutional-Neural-Networks)
 42. [ZeRO Memory Optimizations Toward Training Trillion Parameter Models](papers/ZeRO-Memory-Optimizations-Toward-Training-Trillion-Parameter-Models)
 43. [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](papers/Efficient-Large-Scale-Language-Model-Training-on-GPU-Clusters-Using-Megatron-LM)
+44. [XeFlow: Streamlining Inter-Processor Pipeline Execution for the Discrete CPU-GPU Platform](papers/XeFlow-Streamlining-Inter-Processor-Pipeline-Execution-for-the-Discrete-CPU-GPU-Platform)
 
 ## Two Papers A Week Goal (Starting from 28.06.2021)
 
@@ -147,6 +148,11 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 
 ### 29.11.2021 - 05.12.2021
 * Unpublished paper (will update if it's accepted)
+* [XeFlow: Streamlining Inter-Processor Pipeline Execution for the Discrete CPU-GPU Platform](papers/XeFlow-Streamlining-Inter-Processor-Pipeline-Execution-for-the-Discrete-CPU-GPU-Platform)
+
+### 06.11.2021 - 12.12.2021
+* [Architecture and Performance of Devito, a System for Automated Stencil Computation](https://dl.acm.org/doi/10.1145/3374916)
+* 
 
 ## Essential Reading List in Parallel Computing (Suggestions of my advisor (Didem Unat))
 
