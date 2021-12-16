@@ -152,7 +152,7 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 
 ### 06.11.2021 - 12.12.2021
 * [Architecture and Performance of Devito, a System for Automated Stencil Computation](https://dl.acm.org/doi/10.1145/3374916)
-* 
+* [Distributed Training of Deep Learning Models A Taxonomic Perspective](papers/Distributed-Training-of-Deep-Learning-Models-A-Taxonomic-Perspective)
 
 ## Essential Reading List in Parallel Computing (Suggestions of my advisor (Didem Unat))
 
