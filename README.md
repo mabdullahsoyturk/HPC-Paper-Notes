@@ -155,7 +155,7 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 * [Distributed Training of Deep Learning Models A Taxonomic Perspective](papers/Distributed-Training-of-Deep-Learning-Models-A-Taxonomic-Perspective)
 
 ### 13.12.2021 - 19.12.2021
-* [Performance Trade-offs in GPU Communication A Study of Host and Device-initiated Approaches](https://escholarship.org/content/qt4n2291dn/qt4n2291dn.pdf)
+* [Performance Trade-offs in GPU Communication A Study of Host and Device-initiated Approaches](papers/Performance-Trade-offs-in-GPU-Communication-A-Study-of-Host-and-Device-initiated-Approaches)
 * [Assessment of NVSHMEM for High Performance Computing](http://www.ijnc.org/index.php/ijnc/article/download/243/251)
 
 ### 20.12.2021 - 26.12.2021
