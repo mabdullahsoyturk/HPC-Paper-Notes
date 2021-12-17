@@ -66,10 +66,6 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 * [Softshell: Dynamic Scheduling on GPUs](papers/Softshell-Dynamic-Scheduling-on-GPUs)
 * [Gravel: Fine-Grain GPU-Initiated Network Messages](papers/Gravel-Fine-Grain-GPU-Initiated-Network-Messages)
 
-### 19.07.2021 - 08.08.2021
-
-Unfortunately, my notes are on my tablet for this time period. I can't seem to find a time to pass them here (Translation: It's been a long time and I don't want to do it anymore :) ).
-
 ### 09.08.2021 - 15.08.2021
 
 * [SPIN:Seamless Operating System Integration of Peer to Peer DMA Between SSDs and GPUs](papers/SPIN-Seamless-Operating-System-Integration-of-Peer-to-Peer-DMA-Between-SSDs-and-GPUs)
