@@ -45,6 +45,9 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 42. [ZeRO Memory Optimizations Toward Training Trillion Parameter Models](papers/ZeRO-Memory-Optimizations-Toward-Training-Trillion-Parameter-Models)
 43. [Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM](papers/Efficient-Large-Scale-Language-Model-Training-on-GPU-Clusters-Using-Megatron-LM)
 44. [XeFlow: Streamlining Inter-Processor Pipeline Execution for the Discrete CPU-GPU Platform](papers/XeFlow-Streamlining-Inter-Processor-Pipeline-Execution-for-the-Discrete-CPU-GPU-Platform)
+45. [Architecture and Performance of Devito, a System for Automated Stencil Computation](papers/Architecture-and-Performance-of-Devito-a-System-for-Automated-Stencil-Computation)
+46. [Distributed Training of Deep Learning Models A Taxonomic Perspective](papers/Distributed-Training-of-Deep-Learning-Models-A-Taxonomic-Perspective)
+47. [Performance Trade-offs in GPU Communication A Study of Host and Device-initiated Approaches](papers/Performance-Trade-offs-in-GPU-Communication-A-Study-of-Host-and-Device-initiated-Approaches)
 
 ## Two Papers A Week Goal (Starting from 28.06.2021)
 
@@ -151,7 +154,7 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 * [XeFlow: Streamlining Inter-Processor Pipeline Execution for the Discrete CPU-GPU Platform](papers/XeFlow-Streamlining-Inter-Processor-Pipeline-Execution-for-the-Discrete-CPU-GPU-Platform)
 
 ### 06.11.2021 - 12.12.2021
-* [Architecture and Performance of Devito, a System for Automated Stencil Computation](https://dl.acm.org/doi/10.1145/3374916)
+* [Architecture and Performance of Devito, a System for Automated Stencil Computation](papers/Architecture-and-Performance-of-Devito-a-System-for-Automated-Stencil-Computation)
 * [Distributed Training of Deep Learning Models A Taxonomic Perspective](papers/Distributed-Training-of-Deep-Learning-Models-A-Taxonomic-Perspective)
 
 ### 13.12.2021 - 19.12.2021
