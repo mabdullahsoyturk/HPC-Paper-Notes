@@ -154,6 +154,14 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 * [Architecture and Performance of Devito, a System for Automated Stencil Computation](https://dl.acm.org/doi/10.1145/3374916)
 * [Distributed Training of Deep Learning Models A Taxonomic Perspective](papers/Distributed-Training-of-Deep-Learning-Models-A-Taxonomic-Perspective)
 
+### 13.12.2021 - 19.12.2021
+* [Performance Trade-offs in GPU Communication A Study of Host and Device-initiated Approaches](https://escholarship.org/content/qt4n2291dn/qt4n2291dn.pdf)
+* [Assessment of NVSHMEM for High Performance Computing](http://www.ijnc.org/index.php/ijnc/article/download/243/251)
+
+### 20.12.2021 - 26.12.2021
+* [A Data-Centric Optimization Framework for Machine Learning](https://arxiv.org/pdf/2110.10802.pdf)
+* [Scaling Distributed Deep Learning Workloads beyond the Memory Capacity with KARMA](https://arxiv.org/pdf/2008.11421.pdf)
+
 ## Essential Reading List in Parallel Computing (Suggestions of my advisor (Didem Unat))
 
 ### Trends
