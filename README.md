@@ -208,33 +208,3 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 * [StarPU: a unified platform for task scheduling on heterogeneous multicore architectures](https://hal.inria.fr/inria-00550877/document)
 * [Legion: expressing locality and independence with logical regions](https://dl.acm.org/doi/10.5555/2388996.2389086)
 * [Charm++ A portable concurrent object oriented system based on C++](https://dl.acm.org/doi/pdf/10.1145/165854.165874)
-
-## Potential Readings
-
-* [A View of the Parallel Computing Landscape](https://dl.acm.org/doi/pdf/10.1145/1562764.1562783)
-* [YOLOv4: Optimal Speed and Accuracy of Object Detection](https://arxiv.org/pdf/2004.10934.pdf)
-
-## GPU-NIC Interaction
-
-Some approaches for GPU-NIC interaction. Useful for my research. 
-
-### Coprocessor Model
-
-Disallows GPUs to access NIC. You write CPU code for communication before and after a GPU kernel.
-
-* [Efficient Inter-Node MPI Communication Using GPUDirect RDMA for InfiniBand Clusters with NVIDIA GPUs](https://ieeexplore.ieee.org/document/6687341) -> CUDA RDMA
-* [Optimized GPU to GPU Communication for InfiniBand Clusters](https://link.springer.com/article/10.1007/s00450-011-0171-3) -> CUDA-aware MPI
-
-### Message-per-lane Model
-
-GPU threads independently access to NIC. 
-
-* [GGAS: Global GPU Address Spaces for Efficient Communication in Heterogeneous Clusters](https://ieeexplore.ieee.org/document/6702638)
-* [Simplifying Multi-GPU Communication with NVSHMEM](http://on-demand.gputechconf.com/gtc/2016/presentation/s6378-nathan-luehr-simplyfing-multi-gpu-communication-nvshmem.pdf) -> Not a paper but good to read.
-
-### Coalesced APIs
-
-Threads coordinate to access the NIC.
-
-* [GPUnet: Networking Abstractions for GPU Programs](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-kim.pdf)
-* [GPUrdma: GPU-Side Library for High Performance Networking from GPU Kernels](https://dl.acm.org/doi/10.1145/2931088.2931091)
