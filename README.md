@@ -48,6 +48,7 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 45. [Architecture and Performance of Devito, a System for Automated Stencil Computation](papers/Architecture-and-Performance-of-Devito-a-System-for-Automated-Stencil-Computation)
 46. [Distributed Training of Deep Learning Models A Taxonomic Perspective](papers/Distributed-Training-of-Deep-Learning-Models-A-Taxonomic-Perspective)
 47. [Performance Trade-offs in GPU Communication A Study of Host and Device-initiated Approaches](papers/Performance-Trade-offs-in-GPU-Communication-A-Study-of-Host-and-Device-initiated-Approaches)
+48. [Assessment of NVSHMEM for High Performance Computing](papers/Assessment-of-NVSHMEM-for-High-Performance-Computing)
 
 ## Two Papers A Week Goal (Starting from 28.06.2021)
 
