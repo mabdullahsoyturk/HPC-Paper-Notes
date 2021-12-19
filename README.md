@@ -155,7 +155,7 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 
 ### 13.12.2021 - 19.12.2021
 * [Performance Trade-offs in GPU Communication A Study of Host and Device-initiated Approaches](papers/Performance-Trade-offs-in-GPU-Communication-A-Study-of-Host-and-Device-initiated-Approaches)
-* [Assessment of NVSHMEM for High Performance Computing](http://www.ijnc.org/index.php/ijnc/article/download/243/251)
+* [Assessment of NVSHMEM for High Performance Computing](papers/Assessment-of-NVSHMEM-for-High-Performance-Computing)
 
 ### 20.12.2021 - 26.12.2021
 * [A Data-Centric Optimization Framework for Machine Learning](https://arxiv.org/pdf/2110.10802.pdf)
