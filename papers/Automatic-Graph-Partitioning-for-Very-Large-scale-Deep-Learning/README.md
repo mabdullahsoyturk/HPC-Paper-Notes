@@ -4,9 +4,10 @@ Tanaka, Masahiro, et al. "Automatic Graph Partitioning for Very Large-scale Deep
 
 ## Notes
 
-![Phases](figures/phases.png)
-
+* Compared with Megatron-LM and GPipe.
 * Converts a model to a task graph in ONNX format where there are two types of nodes: **tasks** (rectangle) and **values** (circle).
+
+![Phases](figures/phases.png)
 
 Three steps:
 
