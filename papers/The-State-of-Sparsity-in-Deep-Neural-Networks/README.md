@@ -21,3 +21,7 @@ Gale, Trevor, Erich Elsen, and Sara Hooker. "The state of sparsity in deep neura
 
 
 ![Pruned Resnet50](./figures/resnet50.png)
+
+* For magnitude pruning, they use Tensorflow's model pruning library.
+* They were not able to replicate the phenomenon observed by Frankle & Carbin (2018). The key difference is the complexity of the tasks and scale of the models.
+* They use the approach introduced in Zhu & Gupta (2017), which is available in the TensorFlow model pruning library.
