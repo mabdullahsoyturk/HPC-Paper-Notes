@@ -49,6 +49,15 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 46. [Distributed Training of Deep Learning Models A Taxonomic Perspective](papers/Distributed-Training-of-Deep-Learning-Models-A-Taxonomic-Perspective)
 47. [Performance Trade-offs in GPU Communication A Study of Host and Device-initiated Approaches](papers/Performance-Trade-offs-in-GPU-Communication-A-Study-of-Host-and-Device-initiated-Approaches)
 48. [Assessment of NVSHMEM for High Performance Computing](papers/Assessment-of-NVSHMEM-for-High-Performance-Computing)
+49. [Sparse GPU Kernels for Deep Learning](papers/Sparse-GPU-Kernels-for-Deep-Learning)
+50. [The State of Sparsity in Deep Neural Networks](papers/The-State-of-Sparsity-in-Deep-Neural-Networks)
+51. [Pruning neural networks without any data by iteratively conserving synaptic flow](papers/Pruning-Neural-Networks-Without-Any-Data-by-Iteratively-Conserving-Synaptic-Flow)
+52. [SNIP: Single-shot Network Pruning based on Connection Sensitivity](papers/SNIP-Single-shot-Network-Pruning-based-on-Connection-Sensitivity)
+53. [Comparing Rewinding and Fine-tuning in Neural Network Pruning](papers/Comparing-Rewinding-and-Fine-tuning-in-Neural-Network-Pruning)
+54. [The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks](papers/The-Lottery-Ticket-Hypothesis-Finding-Sparse-Trainable-Neural-Networks)
+55. [Torch.fx: Practical Program Capture and Transformation for Deep Learning in Python](papers/torch.fx)
+56. [An asynchronous message driven parallel framework for extreme scale deep learning](papers/An-asynchronous-message-driven-parallel-framework-for-extreme-scale-deep-learning)
+57. [Bolt: Bridging The Gap Between Auto Tuners And Hardware Native Performance](papers/Bolt-Bridging-The-Gap-Between-Auto-Tuners-And-Hardware-Native-Performance)
 
 ## Two Papers A Week Goal (Starting from 28.06.2021)
 
