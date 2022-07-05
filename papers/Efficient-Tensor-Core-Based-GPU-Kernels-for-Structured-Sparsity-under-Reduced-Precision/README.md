@@ -47,7 +47,7 @@ utilization of GEMM is reduced from 88.44% (FMA) to 14.6% (Tensor), which sugges
 
 * Blocked-ELL is nice but needs block size greater than 8. When you increase the block size too much, accuracy degradation starts. You gotta consider this trade off well.
 
-![Blocked-Ell](/figures/blocked_ell.png)
+![Blocked-Ell](./figures/blocked_ell.png)
 
 * 5 Things to consider:
   * Reduce program size to avoid overflow the instruction cache.
@@ -56,11 +56,11 @@ utilization of GEMM is reduced from 88.44% (FMA) to 14.6% (Tensor), which sugges
   * Directly load data with few reuse opportunities to the register file without using the shared memory.
   * Improve bandwidth utilization with 128B coalesced transactions and long vector memory operations
 
-![Implementation](/figures/impl.png)
+![Implementation](./figures/impl.png)
 * The number of data reuse is determined by m and TileN but not the number of columns (k in SpMM and n in SDDMM) in each block.
 * This encoding is equivalent with replacing each nonzero scalar in the CSR sparse matrix with a nonzero column vector.
 
 * The elements within each nonzero column vector are stored in consecutive addresses.
 * The consecutive vectors in the same row are also consecutive in the memory space.
 
-![Representation](/figures/representation.png)
+![Representation](./figures/representation.png)
