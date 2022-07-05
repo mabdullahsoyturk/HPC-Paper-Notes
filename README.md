@@ -58,6 +58,7 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 55. [Torch.fx: Practical Program Capture and Transformation for Deep Learning in Python](papers/torch.fx)
 56. [An asynchronous message driven parallel framework for extreme scale deep learning](papers/An-asynchronous-message-driven-parallel-framework-for-extreme-scale-deep-learning)
 57. [Bolt: Bridging The Gap Between Auto Tuners And Hardware Native Performance](papers/Bolt-Bridging-The-Gap-Between-Auto-Tuners-And-Hardware-Native-Performance)
+58. [Efficient Tensor Core-Based GPU Kernels for Structured Sparsity under Reduced Precision](papers/Efficient-Tensor-Core-Based-GPU-Kernels-for-Structured-Sparsity-under-Reduced-Precision)
 
 ## Two Papers A Week Goal (Starting from 28.06.2021)
 
