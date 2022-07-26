@@ -13,7 +13,7 @@ and could be very harmful when applying fine-tuning based approaches to token-le
 
 ## How
 
-Randomly masks some of the tokens from the input, and the objective is to predict the original vocabulary id of the masked word based only on its context.
+By jointly conditioning on both left and right context in all layers.
 
 ## Notes
 
