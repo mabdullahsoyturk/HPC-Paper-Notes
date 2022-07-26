@@ -226,7 +226,7 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 * [Legion: expressing locality and independence with logical regions](https://dl.acm.org/doi/10.5555/2388996.2389086)
 * [Charm++ A portable concurrent object oriented system based on C++](https://dl.acm.org/doi/pdf/10.1145/165854.165874)
 
-### Scalable Deep Learning
+## My Scalable Deep Learning List (Just a list of papers that I read recently. Not recommendations)
 
 * [PyTorch Distributed Experiences on Accelerating Data Parallel Training](papers/PyTorch-Distributed-Experiences-on-Accelerating-Data-Parallel-Training)
 * [An Oracle for Guiding Large-Scale Model/Hybrid Parallel Training of Convolutional Neural Networks](papers/An-Oracle-for-Guiding-Large-Scale-Model-Hybrid-Parallel-Training-of-Convolutional-Neural-Networks)
