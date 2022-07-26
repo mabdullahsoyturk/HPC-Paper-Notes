@@ -66,6 +66,7 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 63. [Longformer: The Long-Document Transformer](papers/Longformer-The-Long-Document-Transformer)
 64. [Linformer: Self-Attention with Linear Complexity](papers/Linformer-Self-Attention-with-Linear-Complexity)
 65. [The Efficiency Misnomer](papers/The-Efficiency-Misnomer)
+66. [A Survey of Transformers](papers/A-Survey-of-Transformers)
 
 ## Two Papers A Week Goal (Starting from 28.06.2021)
 
@@ -249,3 +250,4 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 * [Longformer: The Long-Document Transformer](papers/Longformer-The-Long-Document-Transformer)
 * [Linformer: Self-Attention with Linear Complexity](papers/Linformer-Self-Attention-with-Linear-Complexity)
 * [The Efficiency Misnomer](papers/The-Efficiency-Misnomer)
+* [A Survey of Transformers](papers/A-Survey-of-Transformers)
