@@ -59,6 +59,13 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 56. [An asynchronous message driven parallel framework for extreme scale deep learning](papers/An-asynchronous-message-driven-parallel-framework-for-extreme-scale-deep-learning)
 57. [Bolt: Bridging The Gap Between Auto Tuners And Hardware Native Performance](papers/Bolt-Bridging-The-Gap-Between-Auto-Tuners-And-Hardware-Native-Performance)
 58. [Efficient Tensor Core-Based GPU Kernels for Structured Sparsity under Reduced Precision](papers/Efficient-Tensor-Core-Based-GPU-Kernels-for-Structured-Sparsity-under-Reduced-Precision)
+59. [Attention is All You Need](papers/Attention-Is-All-You-Need)
+60. [Scaling Laws for Neural Language Models](papers/Scaling-Laws-for-Neural-Language-Models)
+61. [BERT Pre-training of Deep Bidirectional Transformers for Language Understanding](papers/BERT-Pre-training-of-Deep-Bidirectional-Transformers-for-Language-Understanding)
+62. [RoBERTa: A Robustly Optimized BERT Pretraining Approach](papers/RoBERTa-A-Robustly-Optimized-BERT-Pretraining-Approach)
+63. [Longformer: The Long-Document Transformer](papers/Longformer-The-Long-Document-Transformer)
+64. [Linformer: Self-Attention with Linear Complexity](papers/Linformer-Self-Attention-with-Linear-Complexity)
+65. [The Efficiency Misnomer](papers/The-Efficiency-Misnomer)
 
 ## Two Papers A Week Goal (Starting from 28.06.2021)
 
@@ -172,7 +179,7 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 * [A Data-Centric Optimization Framework for Machine Learning](https://arxiv.org/pdf/2110.10802.pdf)
 * [Scaling Distributed Deep Learning Workloads beyond the Memory Capacity with KARMA](https://arxiv.org/pdf/2008.11421.pdf)
 
-## Essential Reading List in Parallel Computing (Suggestions of my advisor (Didem Unat))
+## Essential Reading List in Parallel Computing (Including suggestions of my advisor (Didem Unat))
 
 ### Trends
 
@@ -218,3 +225,27 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 * [StarPU: a unified platform for task scheduling on heterogeneous multicore architectures](https://hal.inria.fr/inria-00550877/document)
 * [Legion: expressing locality and independence with logical regions](https://dl.acm.org/doi/10.5555/2388996.2389086)
 * [Charm++ A portable concurrent object oriented system based on C++](https://dl.acm.org/doi/pdf/10.1145/165854.165874)
+
+### Scalable Deep Learning
+
+* [PyTorch Distributed Experiences on Accelerating Data Parallel Training](papers/PyTorch-Distributed-Experiences-on-Accelerating-Data-Parallel-Training)
+* [An Oracle for Guiding Large-Scale Model/Hybrid Parallel Training of Convolutional Neural Networks](papers/An-Oracle-for-Guiding-Large-Scale-Model-Hybrid-Parallel-Training-of-Convolutional-Neural-Networks)
+* [ZeRO Memory Optimizations Toward Training Trillion Parameter Models](papers/ZeRO-Memory-Optimizations-Toward-Training-Trillion-Parameter-Models)
+* [Distributed Training of Deep Learning Models A Taxonomic Perspective](papers/Distributed-Training-of-Deep-Learning-Models-A-Taxonomic-Perspective)
+* [Sparse GPU Kernels for Deep Learning](papers/Sparse-GPU-Kernels-for-Deep-Learning)
+* [The State of Sparsity in Deep Neural Networks](papers/The-State-of-Sparsity-in-Deep-Neural-Networks)
+* [Pruning neural networks without any data by iteratively conserving synaptic flow](papers/Pruning-Neural-Networks-Without-Any-Data-by-Iteratively-Conserving-Synaptic-Flow)
+* [SNIP: Single-shot Network Pruning based on Connection Sensitivity](papers/SNIP-Single-shot-Network-Pruning-based-on-Connection-Sensitivity)
+* [Comparing Rewinding and Fine-tuning in Neural Network Pruning](papers/Comparing-Rewinding-and-Fine-tuning-in-Neural-Network-Pruning)
+* [The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks](papers/The-Lottery-Ticket-Hypothesis-Finding-Sparse-Trainable-Neural-Networks)
+* [Torch.fx: Practical Program Capture and Transformation for Deep Learning in Python](papers/torch.fx)
+* [An asynchronous message driven parallel framework for extreme scale deep learning](papers/An-asynchronous-message-driven-parallel-framework-for-extreme-scale-deep-learning)
+* [Bolt: Bridging The Gap Between Auto Tuners And Hardware Native Performance](papers/Bolt-Bridging-The-Gap-Between-Auto-Tuners-And-Hardware-Native-Performance)
+* [Efficient Tensor Core-Based GPU Kernels for Structured Sparsity under Reduced Precision](papers/Efficient-Tensor-Core-Based-GPU-Kernels-for-Structured-Sparsity-under-Reduced-Precision)
+* [Attention is All You Need](papers/Attention-Is-All-You-Need)
+* [Scaling Laws for Neural Language Models](papers/Scaling-Laws-for-Neural-Language-Models)
+* [BERT Pre-training of Deep Bidirectional Transformers for Language Understanding](papers/BERT-Pre-training-of-Deep-Bidirectional-Transformers-for-Language-Understanding)
+* [RoBERTa: A Robustly Optimized BERT Pretraining Approach](papers/RoBERTa-A-Robustly-Optimized-BERT-Pretraining-Approach)
+* [Longformer: The Long-Document Transformer](papers/Longformer-The-Long-Document-Transformer)
+* [Linformer: Self-Attention with Linear Complexity](papers/Linformer-Self-Attention-with-Linear-Complexity)
+* [The Efficiency Misnomer](papers/The-Efficiency-Misnomer)
