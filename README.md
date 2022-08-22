@@ -67,6 +67,7 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 64. [Linformer: Self-Attention with Linear Complexity](papers/Linformer-Self-Attention-with-Linear-Complexity)
 65. [The Efficiency Misnomer](papers/The-Efficiency-Misnomer)
 66. [A Survey of Transformers](papers/A-Survey-of-Transformers)
+67. [PipeTransformer-Automated Elastic Pipelining for Distributed Training of Large-scale Models](papers/PipeTransformer-Automated-Elastic-Pipelining-for-Distributed-Training-of-Large-scale-Models)
 
 ## Two Papers A Week Goal (Starting from 28.06.2021)
 
@@ -251,3 +252,4 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 * [Linformer: Self-Attention with Linear Complexity](papers/Linformer-Self-Attention-with-Linear-Complexity)
 * [The Efficiency Misnomer](papers/The-Efficiency-Misnomer)
 * [A Survey of Transformers](papers/A-Survey-of-Transformers)
+* [PipeTransformer-Automated Elastic Pipelining for Distributed Training of Large-scale Models](papers/PipeTransformer-Automated-Elastic-Pipelining-for-Distributed-Training-of-Large-scale-Models)
