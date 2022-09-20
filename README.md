@@ -69,6 +69,7 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 66. [The Efficiency Misnomer](papers/The-Efficiency-Misnomer)
 67. [A Survey of Transformers](papers/A-Survey-of-Transformers)
 68. [PipeTransformer-Automated Elastic Pipelining for Distributed Training of Large-scale Models](papers/PipeTransformer-Automated-Elastic-Pipelining-for-Distributed-Training-of-Large-scale-Models)
+69. [Training Compute-Optimal Large Language Models](papers/Training-Compute-Optimal-Large-Language-Models)
 
 ## Two Papers A Week Goal (Starting from 28.06.2021)
 
@@ -255,3 +256,4 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 * [The Efficiency Misnomer](papers/The-Efficiency-Misnomer)
 * [A Survey of Transformers](papers/A-Survey-of-Transformers)
 * [PipeTransformer-Automated Elastic Pipelining for Distributed Training of Large-scale Models](papers/PipeTransformer-Automated-Elastic-Pipelining-for-Distributed-Training-of-Large-scale-Models)
+* [Training Compute-Optimal Large Language Models](papers/Training-Compute-Optimal-Large-Language-Models)
