@@ -16,8 +16,7 @@ They analyze the advantages and disadvantages of various parallelism types and c
 * Tensor model parallellism works up to 20 billion parameters on DGX-2 A100 Servers (8 80 GB A100)
 * Tensor model parallellism doesn't work well for multi-node (slow bandwidth and small matrix-matrix multiplications). 
 * GPipe schedule: Stash activations for **m** microbatches.
-* PipeDream-Flush schedule: Stash activation for **p** or fewer microbatches. PipeDream schedule limits the number of in-flight microbatches (the number of
-microbatches for which the backward pass is outstanding and activations need to be maintained). 
+* PipeDream-Flush schedule: Stash activation for **p** or fewer microbatches. PipeDream schedule limits the number of in-flight microbatches (the number of microbatches for which the backward pass is outstanding and activations need to be maintained). 
 * Schedule with interleave: Each device can perform computation for multiple subsets of layers. For example, if each device had 4 layers before (i.e., device 1 had layers 1 − 4, device 2 had layers 5 − 8, and so on), we could have each device perform computation for two model chunks (each with 2 layers), i.e. device 1 has layers 1, 2, 9, 10; device 2 has layers 3, 4, 11, 12; and so on. With this scheme, each device in the pipeline is assigned multiple pipeline stages. In this way, the pipeline flush for the same batch size happens sooner.
 * Schedule with interleave causes more communication.
 
