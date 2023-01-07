@@ -71,6 +71,7 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 68. [PipeTransformer-Automated Elastic Pipelining for Distributed Training of Large-scale Models](papers/PipeTransformer-Automated-Elastic-Pipelining-for-Distributed-Training-of-Large-scale-Models)
 69. [Training Compute-Optimal Large Language Models](papers/Training-Compute-Optimal-Large-Language-Models)
 70. [WholeGraph: A Fast Graph Neural Network Training Framework with Multi-GPU Distributed Shared Memory Architecture](papers/WholeGraph/)
+71. [Sparse-GPT-Massive-Language-Models-Can-Be-Accurately-Pruned-in-One-Shot](papers/Sparse-GPT-Massive-Language-Models-Can-Be-Accurately-Pruned-in-One-Shot/)
 
 ## Two Papers A Week Goal (Starting from 28.06.2021)
 
@@ -258,3 +259,4 @@ model for performance portability on heterogeneous architectures](papers/Statefu
 * [A Survey of Transformers](papers/A-Survey-of-Transformers)
 * [PipeTransformer-Automated Elastic Pipelining for Distributed Training of Large-scale Models](papers/PipeTransformer-Automated-Elastic-Pipelining-for-Distributed-Training-of-Large-scale-Models)
 * [Training Compute-Optimal Large Language Models](papers/Training-Compute-Optimal-Large-Language-Models)
+* [Sparse-GPT-Massive-Language-Models-Can-Be-Accurately-Pruned-in-One-Shot](papers/Sparse-GPT-Massive-Language-Models-Can-Be-Accurately-Pruned-in-One-Shot/)
